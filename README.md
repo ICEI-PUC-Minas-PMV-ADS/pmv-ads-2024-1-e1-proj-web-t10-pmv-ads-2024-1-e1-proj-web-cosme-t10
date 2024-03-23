@@ -1,25 +1,27 @@
-# Título do Projeto
+# COSMEPÉDIA
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO - WEB FRONT END `
 
-`SEMESTRE`
+`EIXO 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O Cosmepédia se propõe a ser, uma aplicação web front end, que oferece informações abrangentes sobre agentes químicos encontrados nos ingredientes cosméticos,
+incluindo descrições, nomenclaturas químicas e efeitos adversos potenciais a curto e longo prazo. Contribuindo para a segurança e o bem-estar dos usuários ao 
+educá-los sobre os ingredientes presentes em produtos cosméticos
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Alírio Henrique Duarte Filho
+* Carlos Augusto da Silva Borges
+* Jefferson Andrade Coelho
+* Júlia Costa Campos
+* Mauricio Honorato de Souza Silva
+* Raianne L Martins
 
 ## Orientador
 
-* Nome completo do professor
+* Humberto Azevedo Nigri do Carmo
 
 # Documentação
 

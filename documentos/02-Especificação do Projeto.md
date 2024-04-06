@@ -45,17 +45,18 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
 
 > **Link Útil**:
 > - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Trabalhador rural com carcinoma na pele        |  Descobrir o que afeta minha recuperação   | Poder evitar uma piora  |
+| Pai de um bebê recém-nascido                 | Verificar a segurança dos produtos que usarei no meu filho                        | Para garantir sua saúde                                |
+|      Influencer com rosácea            | Garantir a possibilidade de poder trabalhar com a melhor versão minha imagem através de produtos cosméticos                        | Evitar produtos que causem o agravamento da doença, que também poderiam afetar a minha saúde e autoestima                               |
+|  Frentista com vitiligo                | Oferecer qualidade de vida e o bem-estar                       | Tornar-se mais encorajado, seguro de si e confiante no futuro                               |
+|   Maquiadora              | Checar a procedência dos ingredientes de produtos que me interessam adquiri                       | Garantir que meus/minhas clientes estejam seguros                              |
 
 ## Requisitos do Projeto
 

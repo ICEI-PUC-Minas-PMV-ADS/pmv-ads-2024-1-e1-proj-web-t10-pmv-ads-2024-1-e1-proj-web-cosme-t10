@@ -14,7 +14,6 @@ educá-los sobre os ingredientes presentes em produtos cosméticos
 
 * Alírio Henrique Duarte Filho
 * Carlos Augusto da Silva Borges
-* Jefferson Andrade Coelho
 * Júlia Costa Campos
 * Mauricio Honorato de Souza Silva
 * Raianne L Martins

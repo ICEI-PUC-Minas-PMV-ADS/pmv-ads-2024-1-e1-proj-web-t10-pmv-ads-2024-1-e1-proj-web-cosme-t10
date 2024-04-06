@@ -7,7 +7,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2"> Perfil 1: Pessoas com doenças de pele diagnosticadas  </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
@@ -26,7 +26,11 @@
 
 4. Contribuir com o conhecimento do usuário, para o mesmo não fazer escolhas que prejudiquem seu quadro.​</td>
 </tr>
-<tr>
+
+
+<tr align=center>
+<th colspan="2"> Perfil 2: Pessoas que buscam o consumo consciente  </th>
+</tr>  
 <td width="150px"><b>Descrição</b></td>
 <td width="600px">Pessoas que possuem um certo grau de entendimento e desejam identificar e ampliar seu entendimento do produto que consome​</td>
 </tr>
@@ -46,8 +50,6 @@
 ## Histórias de Usuários
 
 
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
@@ -75,7 +77,6 @@
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|

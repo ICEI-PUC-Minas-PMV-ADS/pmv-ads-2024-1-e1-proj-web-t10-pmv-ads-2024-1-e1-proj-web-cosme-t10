@@ -60,18 +60,18 @@
 
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
-
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
-
-**Prioridade: Alta / Média / Baixa. 
+|  RF-01  |  A aplicação deve oferecer uma funcionalidade de pesquisa por um ou mais ingredientes cosméticos                    | ALTA    | 
+|  RF-02  |  A aplicação deve construir e retornar ao usuário um card/tabela com as informações sobre o(s) ingrediente(s) escolhido(s) pelo usuário na pesquisa.                     | ALTA    |
+| RF-03  |  Quando a busca pelo usuário conter mais de um ingrediente, a aplicação deve retornar os cards construídos para o usuário de maneira paginada, com os cards sobrepostos um sobre os outros e ordenados de ingredientes considerados mais perigosos a menos perigosos.    | ALTA    |
+|RF-04 | A aplicação deve oferecer aos usuários, a opção de ativar ou desativar o modo noturno, que ajusta a interface para tons mais escuros para melhorar a experiência de uso em ambientes com pouca luz.    |  BAIXA  |
+|RF-05 |  A aplicação deve permitir ao administrador do sistema a capacidade de adicionar ingredientes e suas informações ao banco de dados através de um formulário.   | ALTA   |
+|RF-06|  A aplicação deve fornecer uma funcionalidade de sugestão de preenchimento automático na barra de pesquisa incremental por ingredientes, que apresenta possíveis ingredientes à medida que o usuário digita, com base nos dados disponíveis no banco de dados de ingredientes.    | BAIXA |
+|RF-07|  A aplicação deve construir e retornar ao usuário um card/tabela com as informações de segurança gerais sobre o conjunto de ingredientes (produto) quando a pesquisa possuir mais de um ingrediente.    | MÉDIA   |
 
 ### Requisitos não Funcionais
 
@@ -79,8 +79,12 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 |  O sistema deve ser capaz de armazenar informações e dados detalhados sobre cada tipo de ingrediente cosmético, incluindo efeitos colaterais, reações alérgicas e outras informações relevantes.                     | ALTA    | 
+| RNF-02 |  A aplicação deve garantir que a funcionalidade de pesquisa por ingredientes cosméticos seja rápida e eficiente, mesmo em casos de pesquisas que incluam vários ingredientes.                     | ALTA    | 
+| RNF-03 |  A aplicação deve manter um desempenho responsivo e suave ao construir e exibir os cards de informações sobre os ingredientes escolhidos pelo usuário, mesmo quando várias consultas de pesquisa estão sendo processadas simultaneamente                    | ALTA    | 
+| RNF-04 |  A aplicação deve garantir que a paginação dos cards construídos para o usuário seja escalável, permitindo que o sistema manipule grandes volumes de dados de forma eficiente e sem degradação do desempenho à medida que o número de resultados de pesquisa aumenta                    | MÉDIA    | 
+| RNF-05 |  A interface do modo noturno deve ser projetada de forma a reduzir a fadiga ocular dos usuários durante o uso prolongado em ambientes com pouca luz, garantindo um contraste adequado entre os elementos da interface e minimizando o brilho excessivo.                    | BAIXA    | 
+| RNF-06 |  A aplicação deve garantir a acessibilidade para usuários com diferentes necessidades, seguindo as diretrizes de acessibilidade da Web (WCAG). Isso inclui fornecer texto alternativo adequado para todos os componentes HTML que transmitam informações visuais, garantindo que as cores usadas na interface sejam distinguíveis para usuários daltônicos e mantendo uma estrutura de marcação semântica para facilitar a navegação por meio de tecnologias assistivas                    | BAIXA    |
 
-**Prioridade: Alta / Média / Baixa. 
+
 

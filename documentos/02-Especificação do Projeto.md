@@ -2,7 +2,7 @@
 
 ## Perfis de Usuários
 
-[Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.]
+
 
 <table>
 <tbody>
@@ -11,11 +11,33 @@
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Pessoas de diversas faixas etárias que, ao passar dos anos, começam a identificar anomalias ou sensibilidades na pele.​</td>
+</tr>
+  
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+  
+1. Identificar ingredientes que possam piorar o quadro em que se encontram.​
+
+2. Ter uma resposta rápida, sem ter que olhar item por item no navegador.​
+
+3. Entender o porquê aquele ingrediente pode afetá-la.​
+
+4. Contribuir com o conhecimento do usuário, para o mesmo não fazer escolhas que prejudiquem seu quadro.​</td>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Pessoas que possuem um certo grau de entendimento e desejam identificar e ampliar seu entendimento do produto que consome​</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>
+  
+ 1. Obter de forma simplificada informação sobre o ingrediente presente na formulação.​
+
+ 2. Ser capaz de distinguir de forma mais eficaz, qual produto será mais seguro para si, ao comparar, quantos ingredientes de cada formulação são prejudiciais.​</td>
+
 </tr>
 </tbody>
 </table>

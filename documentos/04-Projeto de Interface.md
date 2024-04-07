@@ -33,6 +33,8 @@ A tela de Home Page, presente na Figura 4, apresenta a barra de pesquisa, a qual
 
 No canto superior à direita da página, há um botão para a escolha de visualização do modo noturno para o usuário.  
 
+Para melhor visualição de como será a dinâmica da pesquisa, pode-se acessar o projeto em: https://www.figma.com/file/CirOGRXdi21hr11IpastQ3/Cosmepedia-(3)?type=design&node-id=0%3A1&mode=design&t=4nYdNVofgC5gml6K-1
+
 ![cosmepedia_tela_inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/assets/164577121/636efcc4-25bc-4f40-b389-94e3438abc42)
 
 

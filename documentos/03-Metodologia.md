@@ -1,11 +1,11 @@
 
 # Metodologia
 
-&nbsp;&nbsp;&nbsp;&nbsp;Esta seção tem como objetivo descrever a estrutura organizacional da equipe responsável pela execução do projeto, bem como as ferramentas utilizadas para garantir a eficiência na manutenção dos códigos e demais artefatos. Para garantir um desenvolvimento fluido e eficaz, a equipe será dividida em papéis específicos. Além disso, serão adotadas ferramentas adequadas para o controle de versão do código-fonte, colaboração entre os membros da equipe e documentação do projeto.
+Esta seção tem como objetivo descrever a estrutura organizacional da equipe responsável pela execução do projeto, bem como as ferramentas utilizadas para garantir a eficiência na manutenção dos códigos e demais artefatos. Para garantir um desenvolvimento fluido e eficaz, a equipe será dividida em papéis específicos. Além disso, serão adotadas ferramentas adequadas para o controle de versão do código-fonte, colaboração entre os membros da equipe e documentação do projeto.
 
 
 ## Gerenciamento de Projeto
-&nbsp;&nbsp;&nbsp;&nbsp;O Scrum foi adotado como metodologia para o desenvolvimento deste projeto devido à sua eficácia comprovada na gestão ágil de projetos de software. Esta escolha se baseia nos benefícios do Scrum, tais como a clareza na definição dos resultados esperados, a disciplina e o ritmo proporcionados pela sua estrutura, a distribuição clara de papéis e responsabilidades entre os membros da equipe (Scrum Master, Scrum Team e Product Owner), o empoderamento dos colaboradores para enfrentar desafios, a colaboração e compartilhamento de conhecimento, e um ambiente propício à crítica construtiva. A aplicação do Scrum neste contexto visa promover um desenvolvimento iterativo e incremental, permitindo a adaptação contínua às demandas do cliente e do mercado, garantindo assim a entrega de valor de forma ágil e eficiente.
+O Scrum foi adotado como metodologia para o desenvolvimento deste projeto devido à sua eficácia comprovada na gestão ágil de projetos de software. Esta escolha se baseia nos benefícios do Scrum, tais como a clareza na definição dos resultados esperados, a disciplina e o ritmo proporcionados pela sua estrutura, a distribuição clara de papéis e responsabilidades entre os membros da equipe (Scrum Master, Scrum Team e Product Owner), o empoderamento dos colaboradores para enfrentar desafios, a colaboração e compartilhamento de conhecimento, e um ambiente propício à crítica construtiva. A aplicação do Scrum neste contexto visa promover um desenvolvimento iterativo e incremental, permitindo a adaptação contínua às demandas do cliente e do mercado, garantindo assim a entrega de valor de forma ágil e eficiente.
 
 ### Divisão de Papéis
 
@@ -21,7 +21,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - In Progress: Esta lista contém as tarefas que já foram iniciadas. As atividades movidas para esta seção estão em processo de execução, mas ainda não foram concluídas.
 - Done: Esta lista abriga as tarefas que completaram todas as etapas de testes e controle de qualidade. Elas estão prontas para serem entregues aos usuários, sem a necessidade de mais edições ou revisões. As tarefas nesta lista representam entregas finalizadas e prontas para uso.
 
-~O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/980/views/1 e é apresentado, no estado atual, na figura abaixo:~
+O esboço do quadro Kanban do grupo está disponível no seguinte endereço: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/980/views/1. Abaixo, apresentamos a representação atual do quadro Kanban:
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/assets/87047035/758c20b6-a39e-40cc-ab29-4bdece96b6d4)
 
 

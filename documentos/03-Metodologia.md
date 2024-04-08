@@ -54,4 +54,4 @@ O esboço do quadro Kanban do grupo está disponível no seguinte endereço: htt
 
 ### Estratégia de Organização de Codificação 
 
-&nbsp;&nbsp;&nbsp;&nbsp;Decidimos manter todos os arquivos relacionados à implementação e visualização do site na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/tree/main/codigo-fonte).Como sugestão para nossa equipe, pensamos em organizar nosso código em partes menores e usar nomes consistentes para arquivos e funções. Isso facilitará a colaboração e o gerenciamento do projeto.
+Decidimos manter todos os arquivos relacionados à implementação e visualização do site na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/tree/main/codigo-fonte).Como sugestão para nossa equipe, pensamos em organizar nosso código em partes menores e usar nomes consistentes para arquivos e funções. Isso facilitará a colaboração e o gerenciamento do projeto.

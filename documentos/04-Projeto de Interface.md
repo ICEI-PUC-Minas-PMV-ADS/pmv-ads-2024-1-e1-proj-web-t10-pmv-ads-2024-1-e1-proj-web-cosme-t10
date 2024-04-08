@@ -3,7 +3,7 @@
 
 ## User Flow
 
-Na figura 1, está presente o fluxo do usuário para o projeto.
+A figura 1 ilustra o fluxograma do projeto e detalha o fluxo do usuário simplificando, através da representação gráfica, a compreensão do procedimento de navegação. Também oferece uma maneira eficiente de visualizar a lógica do sistema.
 
 ![Versãohorizontal drawio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/assets/164577121/b8473ef8-8c8b-4732-80a3-3dc0db3180d3)
 

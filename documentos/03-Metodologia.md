@@ -13,7 +13,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Scrum Master: Mauricio Honorato.
 - Product Owner: Raianne Martins.
 - Equipe de Desenvolvimento: Alírio Henrique, Carlos Augusto, Júlia Campos, Mauricio Honorato e Raianne Martins.
-- Equipe de Design: Alírio Henrique, Carlos Augusto e Raianne Martins
+- Equipe de Design: Alírio Henrique, Carlos Augusto, Júlia Campos e Raianne Martins
 
 ### Processo
 - Backlog: É uma lista dinâmica que recebe as tarefas a serem trabalhadas, representando o Product Backlog do projeto. Ele inclui todas as atividades identificadas durante o planejamento e desenvolvimento, sendo constantemente atualizado para refletir as mudanças nas necessidades do cliente e prioridades da equipe.

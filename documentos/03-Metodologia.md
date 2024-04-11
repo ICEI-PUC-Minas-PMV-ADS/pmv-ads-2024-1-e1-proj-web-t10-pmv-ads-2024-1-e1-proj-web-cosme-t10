@@ -52,7 +52,7 @@ O esboço do quadro Kanban do grupo está disponível no seguinte endereço: htt
 | Excalidraw                          | Excalidraw                         |  https://excalidraw.com/
 | Draw.io                             | Draw.io                            |  https://app.diagrams.net/
 | Figma                               | Figma                              |  https://www.figma.com/
-|
+
  
 
 

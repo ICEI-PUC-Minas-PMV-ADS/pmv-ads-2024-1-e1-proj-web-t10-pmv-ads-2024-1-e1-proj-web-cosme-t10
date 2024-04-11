@@ -40,9 +40,17 @@ O esboço do quadro Kanban do grupo está disponível no seguinte endereço: htt
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas usadas no projeto são:
 
-~As ferramentas utilizadas para o desenvolvimento dos artefatos do projeto estão distribuídas em diversas plataformas. A relação entre os ambientes e seus respectivos propósitos é detalhada na tabela a seguir.~
+  Excalidraw
+
+  Draw.io
+
+  Figma
+
+Tanto o Excalidraw quanto o Draw.io foram utilizados para auxiliar na montagem de um protótipo de baixa fidelidade e também para diagramação do user flow do projeto. O Figma, apesar de também ter sido utilizado para criar protótipos de baixa fidelidade, possibilitou a criação de uma página mais elaborada, oferecendo uma ampla gama de ferramentas para design colaborativo e iterativo.
+
+
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|

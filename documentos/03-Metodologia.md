@@ -48,8 +48,12 @@ O esboço do quadro Kanban do grupo está disponível no seguinte endereço: htt
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/tree/main/codigo-fonte                           |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/tree/main/documentos                            |
-| Gerenciamento do Projeto            | GitHub Projects                    |  https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/980                           |
-
+| Gerenciamento do Projeto            | GitHub Projects                    |  https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/980   
+| Excalidraw                          | Excalidraw                         |  https://excalidraw.com/
+| Draw.io                             | Draw.io                            |  https://app.diagrams.net/
+| Figma                               | Figma                              |  https://www.figma.com/
+|
+ 
 
 
 ### Estratégia de Organização de Codificação 

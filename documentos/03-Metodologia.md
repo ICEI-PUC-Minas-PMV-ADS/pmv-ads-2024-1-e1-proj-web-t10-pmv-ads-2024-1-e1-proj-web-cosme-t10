@@ -22,7 +22,8 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Done: Esta lista abriga as tarefas que completaram todas as etapas de testes e controle de qualidade. Elas estão prontas para serem entregues aos usuários, sem a necessidade de mais edições ou revisões. As tarefas nesta lista representam entregas finalizadas e prontas para uso.
 
 O esboço do quadro Kanban do grupo está disponível no seguinte endereço: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/980/views/1. Abaixo, apresentamos a representação atual do quadro Kanban:
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/assets/87047035/758c20b6-a39e-40cc-ab29-4bdece96b6d4)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/assets/87047035/99e34706-2b4c-4afe-a607-ee0832c05dbb)
+
 
 
 ### Etiquetas

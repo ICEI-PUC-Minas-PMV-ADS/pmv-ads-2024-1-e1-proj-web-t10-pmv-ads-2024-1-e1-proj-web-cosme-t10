@@ -58,7 +58,7 @@ Tanto o Excalidraw quanto o Draw.io foram utilizados para auxiliar na montagem d
 | Repositório de código fonte         | GitHub                             |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/tree/main/codigo-fonte                           |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/tree/main/documentos                            |
 | Gerenciamento do Projeto            | GitHub Projects                    |  https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/980   
-| Protótipo de baixa fidelidade       | Excalidraw                         |  https://excalidraw.com/
+| Esboço da Home Page e da página de Resultados       | Excalidraw                         |  https://excalidraw.com/
 | Fluxograma do User Flow            | Draw.io                            |  https://app.diagrams.net/
 | Protótipo de baixa fidelidade - telas    | Figma                              |  https://www.figma.com/
 

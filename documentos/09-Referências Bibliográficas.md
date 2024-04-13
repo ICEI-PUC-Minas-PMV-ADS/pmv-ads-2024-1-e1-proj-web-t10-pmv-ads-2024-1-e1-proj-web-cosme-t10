@@ -1,5 +1,12 @@
 # Referências Bibliográficas
 
+ASSOCIAÇÃO BRASILEIRA DA INDÚSTRIA DE HIGIENE PESSOAL, PERFUMARIA E COSMÉTICOS (ABIHPEC). Panorama do setor. Higiene pessoal, perfumaria e cosméticos. 2016. São Paulo. Disponível em: https://www.abihpec.org.br/novo/wp-content/uploads/PANOMARA-DO-SETOR-2016.pdf. Acesso em: 06 de março de 2024.
+
+Brasil. 2021. Ministério da Saúde. Intoxicação exógena. Disponível em: https://datasus.saude.gov.br/. Acesso em: 06 de março de 2024.
+
+Brasil. 2021. Ministério da Saúde. Nomenclatura de Ingredientes. Disponível em: https://www.gov.br/anvisa/pt-br/acessoainformacao/perguntasfrequentes/
+cosmeticos/nomenclatura-de-ingredientes. Acesso em: 05 de abril de 2024.
+
 CARLSON, Gus. Is anti-aging really the trillion-dollar business it's touted to be?. <b>Globe & Mail</b> (Toronto, Canada), p. B3-B3, 2023. 
 
 

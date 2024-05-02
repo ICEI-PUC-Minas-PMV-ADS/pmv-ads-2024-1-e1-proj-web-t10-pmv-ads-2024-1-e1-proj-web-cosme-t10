@@ -122,7 +122,11 @@ label[for="nightmode-toggle-checkbox"] {
     outline: none; /* Remove a borda de seleção quando o input está em foco */
 }
 
-
+@media screen and (max-width: 1046px) {
+    .input-pesquisa {
+        font-size: calc(14.5px - ((1046px - 100vw) / 60));
+    }
+}
 
 .button-pesquisa{
     display: flex;

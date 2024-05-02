@@ -1,3 +1,149 @@
-{
+body {
+    background-color: #edf6f9;
+}
+header {
+    display: flex;
+    height: 40vh;
+    justify-content: center;/*alinha os itens do container no centro*/
+     
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nightmode-toggle-display {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    width: 73px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: #006D77B2;
+    opacity: 70%;
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+}
+
+#nightmode-toggle-checkbox {
+    display: none;
+}
+
+label[for="nightmode-toggle-checkbox"] {
+    cursor: pointer;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    background-color: #EDF6F9;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    left: 0px;
+    transition: left 0.3s ease-in-out;
+}
+
+#svg-sun-icon {
+    position: absolute;
+    pointer-events: none;
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+}
+
+#svg-sun-icon path {
+    fill: #006D77B2;
+}
+
+#svg-moon-icon {
+    position: absolute;
+    pointer-events: none;
+    top: 3px;
+    right: 3px;
+    width: 18px;
+    height: 18px;
+}
+
+#svg-moon-icon path {
+    fill: #EDF6F9;
+}
+
+#nightmode-toggle-checkbox:checked ~ .nightmode-toggle-display {
+    background-color: #48738FB2;
+}
+
+#nightmode-toggle-checkbox:checked + .nightmode-toggle-display label {
+    left: 75%;
+}
+
+#nightmode-toggle-checkbox:checked ~ .nightmode-toggle-display #svg-sun-icon path {
+    fill: #EDF6F9;
+}
+
+#nightmode-toggle-checkbox:checked ~ .nightmode-toggle-display #svg-moon-icon path {
+    fill: #00284D;
+}
+
+
+.logo{
+    width: 37vw;
+    align-self: end;  
+}
+.barra-pesquisa-container{
+    display: flex;
+    align-items: center;
+    height:4vh;
+    width: 40vw;
+    margin-top:3%;
+}
+.input-pesquisa{
+    width: 100%;
+    height: 100%;
+    background-color:#E1F6F4;
+    border-radius: 8px;
+    font-family:'Roboto Mono', monospace;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 0.5px solid #006D77;
+    padding-left: 2%;
+}
+.input-pesquisa::placeholder{ /*cor da fonte dentro da barra de pesquisa*/
+    color:#006D77;
+}
+
+
+.input-pesquisa:focus::placeholder {
+    color: transparent; /* torna o texto do placeholder transparente quando o input está em foco*/
+}
+
+.input-pesquisa:focus {
+    outline: none; /* Remove a borda de seleção quando o input está em foco */
+}
+
+@media screen and (max-width: 1046px) {
+    .input-pesquisa {
+        font-size: calc(14.5px - ((1046px - 100vw) / 60));
+    }
+}
+
+.button-pesquisa{
+    background-color:#E1F6F4;
+    width: 5vh;
+    height: 4.5vh;
+    margin-left: 2.3%;
+    border: 0.5px solid #006D77;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.button-pesquisa:hover{
+    transform: scale(1.2);/*0.5 diminui  //  1.5 aumenta */
+    cursor: pointer;/*cursor muda pra mãozinha*/
     
+}
+.lupa{
+    height: 80%;
+    margin: auto;
 }

@@ -73,9 +73,8 @@
 |  RF-02  |  A aplicação deve construir e retornar ao usuário um card/tabela com as informações sobre o(s) ingrediente(s) escolhido(s) pelo usuário na pesquisa.                     | ALTA    |
 | RF-03  |  Quando a busca pelo usuário conter mais de um ingrediente, a aplicação deve retornar os cards construídos para o usuário de maneira paginada, com os cards sobrepostos um sobre os outros e ordenados de ingredientes considerados mais perigosos a menos perigosos.    | ALTA    |
 |RF-04 | A aplicação deve oferecer aos usuários, a opção de ativar ou desativar o modo noturno, que ajusta a interface para tons mais escuros para melhorar a experiência de uso em ambientes com pouca luz.    |  BAIXA  |
-|RF-05 |  A aplicação deve permitir ao administrador do sistema a capacidade de adicionar ingredientes e suas informações ao banco de dados através de um formulário.   | ALTA   |
-|RF-06|  A aplicação deve fornecer uma funcionalidade de sugestão de preenchimento automático na barra de pesquisa incremental por ingredientes, que apresenta possíveis ingredientes à medida que o usuário digita, com base nos dados disponíveis no banco de dados de ingredientes.    | BAIXA |
-|RF-07|  A aplicação deve construir e retornar ao usuário um card/tabela com as informações de segurança gerais sobre o conjunto de ingredientes (produto) quando a pesquisa possuir mais de um ingrediente.    | MÉDIA   |
+|RF-05|  A aplicação deve fornecer uma funcionalidade de sugestão de preenchimento automático na barra de pesquisa incremental por ingredientes, que apresenta possíveis ingredientes à medida que o usuário digita, com base nos dados disponíveis no banco de dados de ingredientes.    | BAIXA |
+|RF-06|  A aplicação deve construir e retornar ao usuário um card/tabela com as informações de segurança gerais sobre o conjunto de ingredientes (produto) quando a pesquisa possuir mais de um ingrediente.    | MÉDIA   |
 
 ### Requisitos não Funcionais
 

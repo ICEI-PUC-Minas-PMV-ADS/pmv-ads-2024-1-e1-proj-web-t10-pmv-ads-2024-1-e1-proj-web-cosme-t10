@@ -88,14 +88,8 @@ label[for="nightmode-toggle-checkbox"] {
 
 
 .logo{
-    display: block;
-    width: 60%;
-    margin: auto;
-    
-   /* border: 1px solid red;*/
-    
-    
-  
+    width: 37vw;
+    align-self: end;  
 }
 .barra-pesquisa{
     display: flex;/*transforma em um container flexível*/

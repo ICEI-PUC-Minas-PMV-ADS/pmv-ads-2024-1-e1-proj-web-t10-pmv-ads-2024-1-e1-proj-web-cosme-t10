@@ -1,7 +1,17 @@
 body {
     background-color: #edf6f9;
 }
-
+header {
+    display: flex;
+    height: 40vh;
+    justify-content: center;/*alinha os itens do container no centro*/
+     
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .nightmode-toggle-display {
     position: fixed;

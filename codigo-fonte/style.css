@@ -91,15 +91,12 @@ label[for="nightmode-toggle-checkbox"] {
     width: 37vw;
     align-self: end;  
 }
-.barra-pesquisa{
-    display: flex;/*transforma em um container flexível*/
-   /* border: 1px solid red;*/
-    justify-content: center;/*alinha o conteúdo dentro do FORM no centro da tela*/
-    
-    height: 25px;
-    width: 60%;/*ocupa 50% do espaço do block*/
-    margin: 0 auto;/*centraliza os 50% no block*/
-    margin-top:30px;/*cria um espaço entre o elemento acima*/
+.barra-pesquisa-container{
+    display: flex;
+    align-items: center;
+    height:4vh;
+    width: 40vw;
+    margin-top:3%;
 }
 .input-pesquisa{
     height: 23px;

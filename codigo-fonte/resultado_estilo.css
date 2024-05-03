@@ -7,9 +7,9 @@
     left: 278px;
     border-radius: 3px;
     padding: 10px;
-    box-shadow: 0px 4px 4px 0px #00000040;
-    border: 0.5px solid #006D77
+    border: 1.5px solid #006D77
 }
+
 
 .titulo-ingrediente {
     font-family: "Anonymous Pro", monospace;
@@ -27,11 +27,9 @@
     height: 76px;
     top: 335px;
     left: 295px;
+    text-shadow: 0px 4px 4px 0px #00000040 50%;
 }
 
-.impressao-ingredientes-2 {
-    color: #006D77;
-}
 
 body {
     background-color: #EDF6F9;

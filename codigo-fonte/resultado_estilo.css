@@ -35,6 +35,36 @@
 
 }
 
+.container-indesejados {
+    color: #EDF6F9;
+    background-color: #83C5BE;
+    width: 250px;
+    height: 185px;
+    top: 265px;
+    left: 278px;
+    border-radius: 3px;
+    padding: 10px;
+    border: 1.5px solid #006D77;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.elemento-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.elemento {
+    width: 55px;
+    height: 30px;
+    background-color: #EDF6F9;
+    border: 1.5px solid #006D77;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
 
 body {

@@ -79,42 +79,14 @@
                 </g>
             </svg>
         </div>
-        
-
-        <head>
-            <title>Cosmepedia</title>
-            <link rel="stylesheet" type="text/css" href="resultado_estilo.css">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link
-                href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-                rel="stylesheet">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link
-                href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-                rel="stylesheet">
-
-        </head>
-
-
-        <header>
-            <!-- checkbox costuma ser convenção, mas implemente da forma que achar melhor -->
-            <input class="nightmode-toggle" type="checkbox">
-
-            <img class="logo" src="linkdalogo">
-        </header>
-
-        <form class="barra-pesquisa">
-            <input type="text">
-            <input type="button">
+    </header>
+    <main>
+        <form class="barra-pesquisa-container">
+            <input class="input-pesquisa" type="text" placeholder="Escreva ou cole a lista de ingredientes aqui">
+            <button class="button-pesquisa" type="submit"><img  class="lupa" src="Assets/Lupa.png"></button>
         </form>
 
-        <main class="card-ingrediente-conteiner">
-            <div class="classificacao-ingredientes">
-
-            </div>
-
+        <section class="card-ingrediente-conteiner">
             <div class="container-indesejados">
                 <h3 class="titulo-ingrediente">
                     Ingredientes Indesejados
@@ -136,14 +108,7 @@
                     </div>
                     <div class="elemento">
                     </div>
-
-            </div>
-
-        </main>
-
-        <main class="card-ingrediente-conteiner">
-            <div class="classificacao-ingredientes">
-
+                </div>
             </div>
 
             <div class="lista-ingredientes">
@@ -161,55 +126,32 @@
                         <li>Mineral Oil</li>
                     </div>
                 </ul>
-
-
             </div>
 
-        </main>
+            <div class="card-ingrediente-informacoes">
+                <div class="container-paginacao">
+                    <button class="button-arrow" onclick="myFunction()"><img src=".\Assets\left_color.svg"></button>
+                    <span class="Numeracao">3/4</span>
+                    <button class="button-arrow" onclick="myFunction()"><img src=".\Assets\right_color.svg"></button>
+                </div>
 
-        <div class="anonymous-pro-bold ">
-        </div>
-        <div class=".roboto-mono-font">
+                <p id="nome-ingredient" class="info-ingrediente-texto"> <strong>Nome:</strong> Lorem. </p>
 
-        </div>
+                <p id="formula-quimica" class="info-ingrediente-texto"> <strong>Fórmula Quimica:</strong> Lorem ipsum dolor
+                    sit amet.</p>
+
+                <p id="descricao" class="info-ingrediente-texto"> <strong>Descrição:</strong> Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Consequuntur culpa maxime suscipit ratione incidunt explicabo cupiditate
+                    quo qui dicta sequi? </p>
+
+                <p id="efeitos" class="info-ingrediente-texto"> <strong>Efeitos Adversos:</strong> Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Reprehenderit quos consectetur esse aut minima a.</p>
+
+                <p id="ref" class="info-ingrediente-texto"> <strong>Fonte: </strong> Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Et, adipisci!</p>
+            </div>
+
+        </section>
+    </main>
 </body>
-
-<main class="card-ingrediente-conteiner">
-    <div class="classificacao-ingredientes">
-
-    </div>
-
-
-
-    <div class="card-ingrediente-informacoes">
-
-        <div class="container-paginacao">
-            <button class="button-arrow" onclick="myFunction()"><img src=".\Assets\left_color.svg"></button>
-            <span class="Numeracao">3/4</span>
-            <button class="button-arrow" onclick="myFunction()"><img src=".\Assets\right_color.svg"></button>
-        </div>
-
-        <p id="nome-ingredient" class="info-ingrediente-texto"> <strong>Nome:</strong> Lorem. </p>
-
-        <p id="formula-quimica" class="info-ingrediente-texto"> <strong>Fórmula Quimica:</strong> Lorem ipsum dolor
-            sit amet.</p>
-
-        <p id="descricao" class="info-ingrediente-texto"> <strong>Descrição:</strong> Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. Consequuntur culpa maxime suscipit ratione incidunt explicabo cupiditate
-            quo qui dicta sequi? </p>
-
-        <p id="efeitos" class="info-ingrediente-texto"> <strong>Efeitos Adversos:</strong> Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Reprehenderit quos consectetur esse aut minima a.</p>
-
-        <p id="ref" class="info-ingrediente-texto"> <strong>Fonte: </strong> Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Et, adipisci!</p>
-
-    </div>
-
-
-    </div>
-</main>
-</body>
-
-
 </html>

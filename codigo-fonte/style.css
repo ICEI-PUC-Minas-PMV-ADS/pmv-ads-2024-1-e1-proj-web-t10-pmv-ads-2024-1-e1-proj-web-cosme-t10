@@ -14,8 +14,8 @@ main {
 
 .nightmode-toggle-display {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 1vw;
+    right: 1vw;
     display: flex;
     align-items: center;
     padding: 3px;

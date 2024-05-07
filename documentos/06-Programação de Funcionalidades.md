@@ -4,7 +4,7 @@ Pré- requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-202
 
 
 
-### Telas Inicial (RF -01)
+### Tela Inicial (RF -01)
 
 Ao acessar a página inicial, o usuário já terá uma barra de pesquisa, a qual ele poderá pesquisar por um ou diversos ingredientes cosméticos. A página foi desenvolvida utilizando HTML, CSS e para dinamização JS. A tela inicial está presente na <i>figura x</i>.
 
@@ -14,7 +14,7 @@ Ao acessar a página inicial, o usuário já terá uma barra de pesquisa, a qual
 
 ### Responsáveis
 
-Alírio Henrique e Maurico Honorato. 
+Alírio Henrique e Mauricio Honorato. 
 
 ### Requisito atendido
 
@@ -85,25 +85,27 @@ RF-02: A aplicação deve construir e retornar ao usuário um card/tabela com as
 ![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/f3f702df-5948-442c-bcca-9269134300b2)
 
 
-### (RF -03)
+### Paginação de resultados (RF -03)
+
+Os resultados obtidos pela pesquisa voltarão sobrepostos e paginados, podendo ser controlados através das duas setas entre a informação sobre qual ingrediente (página) está sendo mostrado no momento. Exemplo na <i>figura z</i> abaixo:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/4f972679-4c73-43c5-b5e5-10cfb1f8f1a7)
+
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
-
-
-
-
+Raianne Martins
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação deve retornar os cards construídos para o usuário de maneira paginada, com os cards sobrepostos um sobre os outros e ordenados de ingredientes considerados mais perigosos a menos perigosos.
 
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+- resultado.html
+- resultado_estilo.css
+- script.js
 
 
 #### Estrutura de Dados
@@ -113,12 +115,52 @@ RF-02: A aplicação deve construir e retornar ao usuário um card/tabela com as
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Basta o usuário pesquisar pelos ingredientes desejados através da barra de pesquisas dos requisitos funcionais prévios que o site retornará dinâmicamente os resultados.
+
+### Modo noturno (RF -04)
+
+A página oferece a opção de trocar entre dois tipos de interface: a padrão e a do modo noturno, usando um botão.
+
+Interface padrão na <i>figura x</i>:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/3f92b542-5c04-4704-949e-62a640c0cd1c)
+
+Interface no modo escuro na <i>figura y</i>:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/5ac06a38-081d-4452-9fdf-35e03dadf14b)
+
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Maurício Honorato
+
+#### Requisito atendido
+
+RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativar o modo noturno, que ajusta a interface para tons mais escuros para melhorar a experiência de uso em ambientes com pouca luz.
+
+
+#### Artefatos da funcionalidade
+
+- index.html
+- style.css
+- resultado.html
+- resultado_estilo.css
+- script.js
+
+
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+O usuário pode alternar entre os diferentes modo de interface clicando no botão no canto superior direito do site. <i>Figuras x e y</i> representativas do botão em seus dois diferentes modos de visualização:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/cdda9f38-2985-493c-8fa5-ffa79d461e5a)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/a00e5b42-c308-444e-bc7e-a43397a7b878)
 
 
 

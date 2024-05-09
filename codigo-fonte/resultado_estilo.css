@@ -118,13 +118,14 @@ main{
 .container-indesejados {
     color: #EDF6F9;
     background-color: #83C5BE;
-    width: 250px;
-    height: 185px;
+    width: 16vw;
+    height: 25vh;
     border-radius: 3px;
     padding: 10px;
     border: 1.5px solid #006D77;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-grow: 1;
 }
 
 .elemento-container {
@@ -132,11 +133,12 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 2vh;
 }
 
 .elemento {
-    width: 55px;
-    height: 30px;
+    width: 5vw;
+    height: 4vh;
     background-color: #EDF6F9;
     border: 1.5px solid #006D77;
     border-radius: 3px;

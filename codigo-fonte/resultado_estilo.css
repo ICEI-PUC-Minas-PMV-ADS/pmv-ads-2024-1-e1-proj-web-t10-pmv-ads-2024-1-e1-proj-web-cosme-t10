@@ -17,7 +17,11 @@ main{
     align-items: center;
 }
 
-
+.Logo{
+    position: absolute;
+    height: 15vh;
+    margin: 1% 0 0 1%;
+}
 .barra-pesquisa-container{
     display: flex;
     height:4vh;

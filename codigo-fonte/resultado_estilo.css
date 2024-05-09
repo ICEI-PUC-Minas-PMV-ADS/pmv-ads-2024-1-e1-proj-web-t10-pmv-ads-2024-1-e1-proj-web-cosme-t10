@@ -1,7 +1,12 @@
 
 body {
     background-color: #EDF6F9;
+    display:flex ;
+    justify-content: center;
+    margin: 0;
 }
+
+
 .barra-pesquisa-container{
     display: flex;
     height:4vh;

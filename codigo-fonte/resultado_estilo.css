@@ -23,6 +23,62 @@ main {
     height: 15vh;
     margin: 1% 0 0 1%;
 }
+@media screen and (min-width: 901px) {/*quando ultrapassar essa largura, a img não irá mudar*/
+    .Logo {
+      width: 170px; 
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Logo {
+      width: 19vw; /* Largura desejada para o modo retrato do iPad */
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    .Logo{
+      width: 19vw;  ; 
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .Logo{
+      width: 18vw;  ; 
+    }
+}
+@media screen and (max-width: 550px) {
+    body {
+        background-color: #EDF6F9;
+        display:flex ;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    header{
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    picture{
+        width: 50%;
+        align-self: center;
+    }
+    .Logo{
+    position: relative;
+    width: 100%;
+    height:auto;
+    }
+    main{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 32vh;
+        width: 100%;
+    }
+}
 
 .barra-pesquisa-container {
     display: flex;

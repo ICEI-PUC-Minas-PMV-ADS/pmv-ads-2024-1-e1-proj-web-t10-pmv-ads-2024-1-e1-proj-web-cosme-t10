@@ -158,6 +158,31 @@ RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativ
 
 O usuário pode alternar entre os diferentes modo de interface clicando no botão no canto superior direito do site. <i>Figuras x e y</i> representativas do botão em seus dois diferentes modos de visualização:
 
+
+### Informações de Segurança dos Ingredientes (RF-06)
+
+A aplicação retorna um conjunto de cards com informações gerais de segurança sobre os ingredientes pesquisados. Os cards incluem:
+1.	Uma seção que mostra a quantidade de ingredientes indesejados através de pequenos retângulos coloridos.
+2.	Uma lista dos ingredientes indesejados presentes no produto, para facilitar a visualização detalhada.
+3.	Detalhes específicos de cada ingrediente, como nome, fórmula química, descrição, efeitos adversos conhecidos e a fonte das informações.
+Confira o exemplo na figura Y abaixo:
+![image](![Figura Y](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164914560/5446c116-634f-4ced-add8-434b08b413c7)
+)
+
+###Responsáveis
+Júlia Campos, Carlos Augusto e Raianne Martins.
+
+###Requisito atendido
+RF-06: A aplicação deve construir e retornar ao usuário um card/tabela com as informações de segurança gerais sobre o conjunto de ingredientes (produto) quando a pesquisa possuir mais de um ingrediente.
+
+###Artefatos da funcionalidade
+- resultado.html;
+- resultado_estilo.css;
+- script.js.
+
+#### Instruções de acesso
+Para acessar essa tela, simplesmente faça uma pesquisa usando o nome de um ou mais ingredientes.
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/cdda9f38-2985-493c-8fa5-ffa79d461e5a)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/a00e5b42-c308-444e-bc7e-a43397a7b878)

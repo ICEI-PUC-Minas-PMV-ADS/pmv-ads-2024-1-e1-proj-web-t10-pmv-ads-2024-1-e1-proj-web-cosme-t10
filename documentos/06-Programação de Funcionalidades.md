@@ -166,16 +166,17 @@ A aplicação retorna um conjunto de cards com informações gerais de seguranç
 2.	Uma lista dos ingredientes indesejados presentes no produto, para facilitar a visualização detalhada.
 3.	Detalhes específicos de cada ingrediente, como nome, fórmula química, descrição, efeitos adversos conhecidos e a fonte das informações.
 Confira o exemplo na figura Y abaixo:
-![image](![Figura Y](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164914560/5446c116-634f-4ced-add8-434b08b413c7)
-)
 
-###Responsáveis
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164914560/5446c116-634f-4ced-add8-434b08b413c7)
+
+
+### Responsáveis
 Júlia Campos, Carlos Augusto e Raianne Martins.
 
-###Requisito atendido
+### Requisito atendido
 RF-06: A aplicação deve construir e retornar ao usuário um card/tabela com as informações de segurança gerais sobre o conjunto de ingredientes (produto) quando a pesquisa possuir mais de um ingrediente.
 
-###Artefatos da funcionalidade
+### Artefatos da funcionalidade
 - resultado.html;
 - resultado_estilo.css;
 - script.js.

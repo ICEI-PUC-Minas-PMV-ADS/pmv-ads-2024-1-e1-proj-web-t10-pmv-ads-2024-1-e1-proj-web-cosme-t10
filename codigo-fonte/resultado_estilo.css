@@ -27,9 +27,9 @@ main {
 .barra-pesquisa-container {
     display: flex;
     height: 4vh;
-    width: 52vw;
+    width: 42vw;
     margin-bottom: 3%;
-    padding-top: 9%;
+    padding-top: 11%;
 
 }
 

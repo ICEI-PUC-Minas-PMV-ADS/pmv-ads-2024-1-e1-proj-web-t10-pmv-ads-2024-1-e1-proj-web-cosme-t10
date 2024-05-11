@@ -6,11 +6,11 @@ Pré- requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-202
 
 ### Tela Inicial (RF -01)
 
-Ao acessar a página inicial, o usuário já terá uma barra de pesquisa, a qual ele poderá pesquisar por um ou diversos ingredientes cosméticos. A página foi desenvolvida utilizando HTML, CSS e para dinamização JS. A tela inicial está presente na <i>figura x</i>.
+Ao acessar a página inicial, o usuário já terá uma barra de pesquisa, a qual ele poderá pesquisar por um ou diversos ingredientes cosméticos. A página foi desenvolvida utilizando HTML, CSS e para dinamização JS. A tela inicial está presente na figura 12.
 
-![Captura de tela_3-5-2024_214342_www figma com](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/437162e6-0361-45d9-8a2f-16dee4a8fad8)
+![homepage_templatefigura12](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/fc859036-5c1f-4f14-b5fc-d0e8754c618c)
 
-<i>Figura X - Exemplo da página inicial (essa figura irá mudar para o que realmente iremos fazer)</i>
+Figura 12 - Exemplo da página inicial.
 
 ### Responsáveis
 

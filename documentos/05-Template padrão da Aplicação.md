@@ -16,27 +16,21 @@ O código usado para a construção dos elementos citados acima se encontra <a h
 <p>Exibe-se, no canto superior direito, um botão de modo claro e escuro seguido pela logo e nome do site, juntamente com uma barra de pesquisa.</p>
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/documentos/img/Frame%201.jpg?raw=true">
-  <figcaption>Figura 1 - Tela de busca, modo claro</figcaption>
+  <figcaption>Figura 9 - Tela de busca, modo claro</figcaption>
 </figure>
-<p><figure>
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/documentos/img/Frame%202.png?raw=true">
-  <figcaption>Figura 2 - Tela de busca, modo escuro</figcaption>
-</figure></p>
+
 <p>
   <h3><b>Tela de resultado</b></h3>
 </p>
 <p>Exibe-se no header da página uma versão reduzida da logo e do nome da aplicação, juntamente com o botão de modo claro e escuro. No corpo, estão exibidos três cards de informações, cada um contém um foco diferente na informação a ser transmitida.</p>
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/documentos/img/Frame%203.png?raw=true">
-  <figcaption>Figura 3 - Tela de resultado, modo claro</figcaption>
+  <figcaption>Figura 10 - Tela de resultado, modo claro</figcaption>
 </figure>
-<p><figure>
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/documentos/img/Frame%204.png?raw=true">
-  <figcaption>Figura 4 - Tela de resultado, modo escuro</figcaption>
-</figure></p>
+
 <hr>
-<p>A logo da aplicação foi pensada a partir do objetivo do site, que é transmitir informação online a respeito de fórmulas e ingredientes seguros - ou não - em cosméticos e produtos que entram em contato com a pele. Assim surge a combinação de dois elementos: um notebook (visto de cima) e uma paleta de maquiagens.</p>
+<p>A logo da aplicação foi pensada a partir do objetivo do site, que é transmitir informação online a respeito de fórmulas e ingredientes seguros - ou não - em cosméticos e produtos que entram em contato com a pele. Assim surge a combinação de dois elementos: um notebook aberto (visto de cima) e uma paleta de maquiagens.</p>
 <figure>
-  <p><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/Assets/LogoEscura.png?raw=true">
-  <figcaption>Figura 5 - logotipo da aplicação web Cosmepedia</figcaption></p>
+  <p><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/assets/logo-escura.png">
+  <figcaption>Figura 11 - logotipo da aplicação web Cosmepedia</figcaption></p>
 </figure>

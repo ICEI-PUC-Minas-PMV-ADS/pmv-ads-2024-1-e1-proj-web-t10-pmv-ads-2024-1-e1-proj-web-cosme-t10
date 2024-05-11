@@ -128,7 +128,7 @@ RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação
 
 ### Modo noturno (RF -04)
 
-A página oferece a opção de trocar entre dois tipos de interface: a padrão e a do modo noturno, usando um botão no canto superior direito, presente tanto na página inicial, quanto na tela de resultados. Pode-se observar na figura 15, como exemplo, o botão na página inicial, demarcado para melhor observação na cor roxa. Na figura  16 e 17, temos, respectivamente, a interface do botão tanto no modo claro, quanto no modo noturno. 
+A página oferece a opção de trocar entre dois tipos de interface: a padrão e a do modo noturno, usando um botão no canto superior direito, presente tanto na página inicial, quanto na tela de resultados. Pode-se observar na figura 15, como exemplo, o botão na página inicial, demarcado para melhor observação na cor roxa. Nas figuras  16 e 17, temos, respectivamente, a interface do botão tanto no modo claro, quanto no modo noturno. 
 
 
 ![figura_15](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/e6eff582-8517-441d-9d9c-c77e154c5c7b)
@@ -189,14 +189,22 @@ RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativ
 
 ### Informações de Segurança dos Ingredientes (RF-06)
 
-A aplicação retorna um conjunto de cards com informações gerais de segurança sobre os ingredientes pesquisados. Os cards incluem:
-1.	Uma seção que mostra a quantidade de ingredientes indesejados através de pequenos retângulos coloridos.
-2.	Uma lista dos ingredientes indesejados presentes no produto, para facilitar a visualização detalhada.
-3.	Detalhes específicos de cada ingrediente, como nome, fórmula química, descrição, efeitos adversos conhecidos e a fonte das informações.
+A aplicação retorna um conjunto de cards com informações gerais de segurança sobre os ingredientes pesquisados. Os cards incluem, as informações abaixo: 
+
+	
+ 
+   ● Uma lista dos ingredientes indesejados presentes no produto, para facilitar a visualização detalhada;
+   
+   ● Detalhes específicos de cada ingrediente, como nome, fórmula química, descrição, efeitos adversos conhecidos e a fonte das informações;
+
+   ● Uma seção que mostra a quantidade de ingredientes indesejados através de pequenos retângulos coloridos.
+   
+   
 Confira o exemplo na figura Y abaixo:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164914560/5446c116-634f-4ced-add8-434b08b413c7)
+![Captura de tela_11-5-2024_192544_127 0 0 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/44edb75b-dca9-40d8-a06b-fead2e8e6baf)
 
+Figura Y. Display dos cards sobre a Segurança dos Ingredientes.
 
 ### Responsáveis
 Júlia Campos, Carlos Augusto e Raianne Martins.
@@ -209,8 +217,16 @@ RF-06: A aplicação deve construir e retornar ao usuário um card/tabela com as
 - resultado_estilo.css;
 - script.js.
 
+#### Estrutura de Dados
+
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
+
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado_estilo.css">resultado_estilo.css</a>
+
 #### Instruções de acesso
-Para acessar essa tela, simplesmente faça uma pesquisa usando o nome de um ou mais ingredientes.
+1. Acessar a página inicial do projeto.
+2. Digite ou cole os ingredientes, os quais deseja obter mais informações.
+3. Clicar no botão de pesquisa, representado pela lupa. 
 
 
 

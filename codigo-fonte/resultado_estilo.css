@@ -336,7 +336,7 @@ label[for="nightmode-toggle-checkbox"] {
     width: 100%;
     background-color: #83C5BE;
     padding: 5px 40px 10px 20px;
-    border-radius: 3px;
+    border-radius: 6px;
     border: 0.5px solid #006D77;
     box-shadow: 0 4px 4px 0 #00000040;
     transform-box: 50%, 50%;

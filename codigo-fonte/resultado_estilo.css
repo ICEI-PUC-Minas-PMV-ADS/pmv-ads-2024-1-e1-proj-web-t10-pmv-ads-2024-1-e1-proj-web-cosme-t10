@@ -220,7 +220,7 @@ main {
 .impressao-ingredientes {
     font-family: "Roboto Mono", monospace;
     text-shadow: 0px 4px 4px 0px #00000040 50%;
-    list-style: none;
+    /*list-style: none;*/
 }
 
 .titulo-ingredientes-indesejados {

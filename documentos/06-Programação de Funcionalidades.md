@@ -32,6 +32,8 @@ RF-01: A aplicação deve oferecer uma funcionalidade de pesquisa por um ou mais
 ### Estrutura de dados
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
 
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/style.css">style.css</a>
+
 #### Instruções de acesso
 
 1. Ao abrir o browser de preferência, o usuário deve informar a URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html .
@@ -75,6 +77,8 @@ RF-02: A aplicação deve construir e retornar ao usuário um card/tabela com as
 
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
 
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado_estilo.css">resultado_estilo.css</a>
+
 
 #### Instruções de acesso
 
@@ -95,7 +99,7 @@ Figura 14. Exemplo paginação de Resultados.
 
 #### Responsável
 
-Raianne Martins
+Raianne Martins.
 
 #### Requisito atendido
 
@@ -113,6 +117,8 @@ RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação
 
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
 
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado_estilo.css">resultado_estilo.css</a>
+
 
 #### Instruções de acesso
 
@@ -122,21 +128,33 @@ RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação
 
 ### Modo noturno (RF -04)
 
-A página oferece a opção de trocar entre dois tipos de interface: a padrão e a do modo noturno, usando um botão.
+A página oferece a opção de trocar entre dois tipos de interface: a padrão e a do modo noturno, usando um botão no canto superior direito, presente tanto na página inicial, quanto na tela de resultados. Pode-se observar na figura 15, como exemplo, o botão na página inicial, demarcado para melhor observação na cor roxa. Na figura  16 e 17, temos, respectivamente, a interface do botão tanto no modo claro, quanto no modo noturno. 
 
-Interface padrão na <i>figura x</i>:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/3f92b542-5c04-4704-949e-62a640c0cd1c)
+![figura_15](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/e6eff582-8517-441d-9d9c-c77e154c5c7b)
 
-Interface no modo escuro na <i>figura y</i>:
+Figura 15. O botão de modo noturno, demarcado na página inicial.
+
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/cdda9f38-2985-493c-8fa5-ffa79d461e5a)
+
+Figura 16. O botão de mudança de visualização no modo claro.
+
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/a00e5b42-c308-444e-bc7e-a43397a7b878)
+
+Figura 17. O botão de mudaça de visualização no modo noturno. 
+
+
+<i>Interface no modo escuro na <i>figura y</i>:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/5ac06a38-081d-4452-9fdf-35e03dadf14b)
 
-
+</i>
 
 #### Responsável
 
-Maurício Honorato
+Maurício Honorato.
 
 #### Requisito atendido
 
@@ -154,12 +172,19 @@ RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativ
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
+
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
+
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/style.css">style.css</a>
+
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado_estilo.css">resultado_estilo.css</a>
+
 
 
 #### Instruções de acesso
 
-O usuário pode alternar entre os diferentes modo de interface clicando no botão no canto superior direito do site. <i>Figuras x e y</i> representativas do botão em seus dois diferentes modos de visualização:
+1. Ao acessar a tela inicial ou a de resultados, o usuário pode deslizar o botão para a esquerda ou para a direita, para obter a funcionalidade desejada. 
 
 
 ### Informações de Segurança dos Ingredientes (RF-06)
@@ -187,16 +212,7 @@ RF-06: A aplicação deve construir e retornar ao usuário um card/tabela com as
 #### Instruções de acesso
 Para acessar essa tela, simplesmente faça uma pesquisa usando o nome de um ou mais ingredientes.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/cdda9f38-2985-493c-8fa5-ffa79d461e5a)
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/a00e5b42-c308-444e-bc7e-a43397a7b878)
 
 
 
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 

@@ -21,13 +21,15 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - In Progress: Esta lista contém as tarefas que já foram iniciadas. As atividades movidas para esta seção estão em processo de execução, mas ainda não foram concluídas.
 - Done: Esta lista abriga as tarefas que completaram todas as etapas de testes e controle de qualidade. Elas estão prontas para serem entregues aos usuários, sem a necessidade de mais edições ou revisões. As tarefas nesta lista representam entregas finalizadas e prontas para uso.
 
-O esboço do quadro Kanban do grupo está disponível no seguinte endereço: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/980/views/1. Abaixo, apresentamos a representação atual do quadro Kanban:
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/assets/87047035/99e34706-2b4c-4afe-a607-ee0832c05dbb)
+O esboço do quadro Kanban do grupo está disponível no seguinte endereço: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/980/views/1. Abaixo,na Figura 1 apresentamos a representação atual do quadro Kanban:
+
+![Captura de tela_11-5-2024_05732_github com](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/0c84248a-0a17-4c6c-af5b-98174cdead15)
+Figura 1 - Representação do quadro Kanban para a etapa 3.
 
 
 
 ### Etiquetas
-<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
+<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias, conforme podemos observar pela Figura 2:</p>
 
 <ul>
   <li>Bug (Bugs)</li>
@@ -37,6 +39,8 @@ O esboço do quadro Kanban do grupo está disponível no seguinte endereço: htt
 </ul>
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/assets/87047035/f1fe5966-b07b-4b88-b9eb-f3a60c000983)
+
+Figura 2. Etiquetas usadas no Projeto.
 
   
 ### Ferramentas

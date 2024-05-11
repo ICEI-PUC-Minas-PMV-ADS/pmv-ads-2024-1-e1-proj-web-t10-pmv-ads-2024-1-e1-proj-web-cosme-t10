@@ -125,6 +125,7 @@ RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação
 1. O usuário concluir com sucesso, os passos da Tela Inicial.
 2. Ao obter os resultados, o usuário deverá clicar nas setas do card maior para obter informações dos outros ingredientes. 
 
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/f3f702df-5948-442c-bcca-9269134300b2)
 
 ### Modo noturno (RF -04)
 
@@ -186,6 +187,7 @@ RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativ
 
 1. Ao acessar a tela inicial ou a de resultados, o usuário pode deslizar o botão para a esquerda ou para a direita, para obter a funcionalidade desejada. 
 
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/f3f702df-5948-442c-bcca-9269134300b2)
 
 ### Informações de Segurança dos Ingredientes (RF-06)
 

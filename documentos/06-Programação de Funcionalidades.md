@@ -46,12 +46,12 @@ RF-01: A aplicação deve oferecer uma funcionalidade de pesquisa por um ou mais
 
 ### Tela Resultados (RF -02)
 
-A tela de resultados é obtida após as instruções presentes na tela inicial terem sido realizados com êxito. A página foi efetivada com a estrutura de HTML, CSS e JS. A tela de resultados, está presente na <i>figura Y</i>.
+A tela de resultados é obtida após as instruções presentes na tela inicial terem sido realizados com êxito. A página foi efetivada com a estrutura de HTML, CSS e JS. A tela de resultados, está presente na figura 13.
 
-![Captura de tela_3-5-2024_21446_www figma com](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/fb280bda-c777-4c04-b8b3-cab070434a9f)
+![tela_resultados_fig13](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/e7a3a95f-9aa5-4213-905f-ca9b12912b72)
 
-<i>Figura Y. Exemplo Tela de Resultados (atualizar depois).</i>
 
+Figura 13. Exemplo Tela de Resultados.
 
 ### Responsáveis
 
@@ -87,10 +87,11 @@ RF-02: A aplicação deve construir e retornar ao usuário um card/tabela com as
 
 ### Paginação de resultados (RF -03)
 
-Os resultados obtidos pela pesquisa voltarão sobrepostos e paginados, podendo ser controlados através das duas setas entre a informação sobre qual ingrediente (página) está sendo mostrado no momento. Exemplo na <i>figura z</i> abaixo:
+Os resultados obtidos pela pesquisa voltarão sobrepostos e paginados, podendo ser controlados através das duas setas entre a informação sobre qual ingrediente (página) está sendo mostrado no momento. Exemplo na figura 14 abaixo:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/4f972679-4c73-43c5-b5e5-10cfb1f8f1a7)
+![Captura de tela_11-5-2024_34228_127 0 0 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/ba3778b4-73a9-4c9e-a781-e2d4957a4b75)
 
+Figura 14. Exemplo paginação de Resultados. 
 
 #### Responsável
 
@@ -110,12 +111,14 @@ RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
 
 
 #### Instruções de acesso
 
-Basta o usuário pesquisar pelos ingredientes desejados através da barra de pesquisas dos requisitos funcionais prévios que o site retornará dinâmicamente os resultados.
+1. O usuário concluir com sucesso, os passos da Tela Inicial.
+2. Ao obter os resultados, o usuário deverá clicar nas setas do card maior para obter informações dos outros ingredientes. 
+
 
 ### Modo noturno (RF -04)
 

@@ -90,7 +90,7 @@ label[for="nightmode-toggle-checkbox"] {
     width: 37vw;
     align-self: end;  
 }
-.barra-pesquisa-container{
+.barra-pesquisa-conteiner{
     display: flex;
     align-items: center;
     height:4vh;
@@ -142,7 +142,7 @@ label[for="nightmode-toggle-checkbox"] {
     cursor: pointer;/*cursor muda pra mãozinha*/
     
 }
-.lupa{
+.lupa-img{
     height: 80%;
     margin: auto;
 }

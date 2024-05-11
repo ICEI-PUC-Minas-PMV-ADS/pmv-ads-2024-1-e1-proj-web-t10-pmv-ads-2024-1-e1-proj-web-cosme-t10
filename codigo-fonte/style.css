@@ -1,11 +1,13 @@
 body {
     background-color: #edf6f9;
 }
+
 header {
     display: flex;
     height: 40vh;
     justify-content: center;/*alinha os itens do container no centro*/
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -88,8 +90,9 @@ label[for="nightmode-toggle-checkbox"] {
 
 .logo{
     width: 37vw;
-    align-self: end;  
+    align-self: end;
 }
+
 .barra-pesquisa-conteiner{
     display: flex;
     align-items: center;
@@ -97,7 +100,8 @@ label[for="nightmode-toggle-checkbox"] {
     width: 40vw;
     margin-top:3%;
 }
-.input-pesquisa{
+
+#input-pesquisa{
     width: 100%;
     height: 100%;
     background-color:#E1F6F4;
@@ -108,16 +112,16 @@ label[for="nightmode-toggle-checkbox"] {
     border: 0.5px solid #006D77;
     padding-left: 2%;
 }
-.input-pesquisa::placeholder{ /*cor da fonte dentro da barra de pesquisa*/
+
+#input-pesquisa::placeholder{ /*cor da fonte dentro da barra de pesquisa*/
     color:#006D77;
 }
 
-
-.input-pesquisa:focus::placeholder {
+#input-pesquisa:focus::placeholder {
     color: transparent; /* torna o texto do placeholder transparente quando o input está em foco*/
 }
 
-.input-pesquisa:focus {
+#input-pesquisa:focus {
     outline: none; /* Remove a borda de seleção quando o input está em foco */
 }
 
@@ -127,7 +131,7 @@ label[for="nightmode-toggle-checkbox"] {
     }
 }
 
-.button-pesquisa{
+#button-pesquisa{
     background-color:#E1F6F4;
     width: 5vh;
     height: 4.5vh;
@@ -137,12 +141,14 @@ label[for="nightmode-toggle-checkbox"] {
     transition: transform 0.2s ease;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.button-pesquisa:hover{
+
+#button-pesquisa:hover{
     transform: scale(1.2);/*0.5 diminui  //  1.5 aumenta */
     cursor: pointer;/*cursor muda pra mãozinha*/
-    
+
 }
-.lupa-img{
+
+#lupa-img{
     height: 80%;
     margin: auto;
 }

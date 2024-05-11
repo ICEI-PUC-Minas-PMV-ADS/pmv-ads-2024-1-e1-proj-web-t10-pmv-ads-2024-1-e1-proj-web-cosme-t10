@@ -204,7 +204,7 @@ A aplicação retorna um conjunto de cards com informações gerais de seguranç
    
 Confira o exemplo na figura Y abaixo:
 
-![Captura de tela_11-5-2024_192544_127 0 0 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/44edb75b-dca9-40d8-a06b-fead2e8e6baf)
+![paginação_resultados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/123be400-7607-4f07-abb7-0ced978ef00a)
 
 Figura Y. Display dos cards sobre a Segurança dos Ingredientes.
 

@@ -25,7 +25,8 @@ O código usado para a construção dos elementos citados acima se encontra <a h
 </p>
 <p>Na figura 10, exibe-se, no header da página, uma versão reduzida da logo e do nome da aplicação, juntamente com o botão de modo claro e escuro. No corpo, estão exibidos três cards de informações; cada um contém um foco diferente na informação a ser transmitida.</p>
 
-![ec3634e4-1889-400c-9a23-45fe59d36e12](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164889530/c16ccd6e-c053-49e6-a559-998314001602)
+![ec3634e4-1889-400c-9a23-45fe59d36e12](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164889530/1791660f-82b8-476a-9445-dfa930472726)
+
 
   <figcaption>Figura 10 - Tela de resultado, modo claro</figcaption>
 

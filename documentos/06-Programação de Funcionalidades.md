@@ -182,7 +182,7 @@ RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativ
 
 ### Autopreenchimento (RF-05)
 
-Na barra de pesquisa, o ingrediente que for digitado pelo usuário, se for um dos ingredientes contidos no programa, irá fornecer a opção para o usuário completar a palavra sem a necessidade de digitar. Como é possivel observar, pela figura 20 abaixo:
+Na barra de pesquisa, o ingrediente que for digitado pelo usuário, se for um dos ingredientes contidos no programa, irá fornecer a opção para o usuário completar a palavra sem a necessidade de digitar. Este requisito será plenamente atendido na próxima etapa. Para fins de visualização, pode-se observar como ele será implementado pela figura 20 abaixo:
 
 ![auto_complete_javascript](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/48948902-7448-43c2-bc74-2e8ef5702d0f)
 

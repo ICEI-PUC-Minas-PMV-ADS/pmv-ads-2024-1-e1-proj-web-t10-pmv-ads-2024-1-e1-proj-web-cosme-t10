@@ -194,6 +194,8 @@ Alírio Henrique e Mauricio Honorato.
 
 ### Requisito atendido
 
+RF-05: A aplicação deve fornecer uma funcionalidade de sugestão de preenchimento automático na barra de pesquisa incremental por ingredientes, que apresenta possíveis ingredientes à medida que o usuário digita, com base nos dados disponíveis no banco de dados de ingredientes.
+
 ### Artefatos da funcionalidade
 
 - index.html
@@ -210,7 +212,9 @@ Alírio Henrique e Mauricio Honorato.
 
 #### Instruções de acesso
 
-1. O usuário, ao acessar a página inicial, deve começar a digitar o ingrediente pelo qual ele deseja a informação. 
+1. O usuário, ao acessar a página inicial, deve começar a digitar o ingrediente pelo qual ele deseja a informação.
+
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/f3f702df-5948-442c-bcca-9269134300b2)
 
 ### Informações de Segurança dos Ingredientes (RF-06)
 
@@ -225,7 +229,7 @@ A aplicação retorna um conjunto de cards com informações gerais de seguranç
    ● Uma seção que mostra a quantidade de ingredientes indesejados através de pequenos retângulos coloridos.
    
    
-Confira o exemplo na figura Y abaixo:
+Confira o exemplo na figura 21 abaixo:
 
 ![paginação_resultados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/123be400-7607-4f07-abb7-0ced978ef00a)
 

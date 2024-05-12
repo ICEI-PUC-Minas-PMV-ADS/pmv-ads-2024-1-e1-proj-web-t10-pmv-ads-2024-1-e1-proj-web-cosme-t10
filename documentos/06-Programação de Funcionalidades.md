@@ -180,6 +180,38 @@ RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativ
 
 ![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/f3f702df-5948-442c-bcca-9269134300b2)
 
+### Autopreenchimento (RF-05)
+
+Na barra de pesquisa, o ingrediente que for digitado pelo usuário, se for um dos ingredientes contidos no programa, irá fornecer a opção para o usuário completar a palavra sem a necessidade de digitar. Como é possivel observar, pela figura 20 abaixo:
+
+![auto_complete_javascript](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/48948902-7448-43c2-bc74-2e8ef5702d0f)
+
+Figura 20. Sugestão de autopreenchimento da página. 
+
+### Responsáveis
+
+Alírio Henrique e Mauricio Honorato.
+
+### Requisito atendido
+
+### Artefatos da funcionalidade
+
+- index.html
+- style.css
+- resultado.html
+- resultado_estilo.css
+- script.js
+
+#### Estrutura de Dados
+
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
+
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
+
+#### Instruções de acesso
+
+1. O usuário, ao acessar a página inicial, deve começar a digitar o ingrediente pelo qual ele deseja a informação. 
+
 ### Informações de Segurança dos Ingredientes (RF-06)
 
 A aplicação retorna um conjunto de cards com informações gerais de segurança sobre os ingredientes pesquisados. Os cards incluem, as informações abaixo: 
@@ -197,7 +229,7 @@ Confira o exemplo na figura Y abaixo:
 
 ![paginação_resultados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/123be400-7607-4f07-abb7-0ced978ef00a)
 
-Figura Y. Display dos cards sobre a Segurança dos Ingredientes.
+Figura 21. Display dos cards sobre a Segurança dos Ingredientes.
 
 ### Responsáveis
 Júlia Campos, Carlos Augusto e Raianne Martins.
@@ -218,8 +250,5 @@ RF-06: A aplicação deve construir e retornar ao usuário um card/tabela com as
 1. Acessar a página inicial do projeto.
 2. Digite ou cole os ingredientes, os quais deseja obter mais informações.
 3. Clicar no botão de pesquisa, representado pela lupa. 
-
-
-
 
 

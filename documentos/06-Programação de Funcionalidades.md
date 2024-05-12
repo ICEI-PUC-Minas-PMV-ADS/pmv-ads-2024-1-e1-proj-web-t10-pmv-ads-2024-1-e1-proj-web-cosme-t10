@@ -32,7 +32,6 @@ RF-01: A aplicação deve oferecer uma funcionalidade de pesquisa por um ou mais
 ### Estrutura de dados
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
 
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/style.css">style.css</a>
 
 #### Instruções de acesso
 
@@ -50,7 +49,7 @@ RF-01: A aplicação deve oferecer uma funcionalidade de pesquisa por um ou mais
 
 A tela de resultados é obtida após as instruções presentes na tela inicial terem sido realizados com êxito. A página foi efetivada com a estrutura de HTML, CSS e JS. A tela de resultados, está presente na figura 13.
 
-![tela_resultados_fig13](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/e7a3a95f-9aa5-4213-905f-ca9b12912b72)
+![cosmedipedia_tela_resultado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/74ae7e7f-c901-4223-aed3-aff2fb25a97c)
 
 
 Figura 13. Exemplo Tela de Resultados.
@@ -76,9 +75,6 @@ RF-02: A aplicação deve construir e retornar ao usuário um card/tabela com as
 #### Estrutura de Dados
 
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
-
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado_estilo.css">resultado_estilo.css</a>
-
 
 #### Instruções de acesso
 
@@ -117,9 +113,6 @@ RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação
 
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
 
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado_estilo.css">resultado_estilo.css</a>
-
-
 #### Instruções de acesso
 
 1. O usuário concluir com sucesso, os passos da Tela Inicial.
@@ -147,11 +140,15 @@ Figura 16. O botão de mudança de visualização no modo claro.
 Figura 17. O botão de mudaça de visualização no modo noturno. 
 
 
-<i>Interface no modo escuro na <i>figura y</i>:
+As páginas do modo escuro, estão nas figuras 18 e 19 abaixo, já que serão dinamizadas com o <i>nightime-toggle</i>, elas serão implementadas na próxima etapa com o JavaScript.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/5ac06a38-081d-4452-9fdf-35e03dadf14b)
+![tela_escura_inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/6d9b85c7-0667-47a3-ab6c-40fe5cf60f9a)
 
-</i>
+Figura 18. Modelo de implementação da Tela Inicial escura.
+
+![tela_escura_resultado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/df70a7da-4546-4837-aaf7-e3e24fb892e9)
+
+Figura 19. Modelo de implementação da Tela Resultados escura.
 
 #### Responsável
 
@@ -176,12 +173,6 @@ RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativ
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
 
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
-
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/style.css">style.css</a>
-
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado_estilo.css">resultado_estilo.css</a>
-
-
 
 #### Instruções de acesso
 
@@ -222,8 +213,6 @@ RF-06: A aplicação deve construir e retornar ao usuário um card/tabela com as
 #### Estrutura de Dados
 
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
-
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado_estilo.css">resultado_estilo.css</a>
 
 #### Instruções de acesso
 1. Acessar a página inicial do projeto.

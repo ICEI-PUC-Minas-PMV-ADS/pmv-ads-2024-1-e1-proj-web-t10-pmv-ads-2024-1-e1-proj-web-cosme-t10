@@ -11,7 +11,7 @@
 
 //TAREFA 1.1:
 //Criar lista de elementos baseado na modelagem de dados que definirmos
-let listaDeIngredientes = [
+let listaDeIngredientesInicial = [
   {
     id: 1,
     Nome: "Parabenos",
@@ -71,10 +71,17 @@ let listaDeIngredientes = [
 //Referir se ao exemplo de CRUD mostrado na etapa do projeto pelo professor Kutova nos vídeo-aulas de JS na página inicial da etapa do projeto
 // ou professor Rommel disponivel nesse link:
 //https://replit.com/@rommelpuc/Cadastro-de-Contatos-localStorage#app.js
-let ingredientes = JSON.parse(localStorage.getItem("Lista_de_ingredientes"));
-if (!ingredientes) {
-  ingredientes = listaDeIngredientes;
+let ingredientesArmazenados = JSON.parse(
+  localStorage.getItem("listadeingredientesinicial")
+);
+if (!ingredientesArmazenados) {
+  ingredientesArmazenados = listaDeIngredientesInicial;
+  localStorage.setItem(
+    "ingredientes_db",
+    JSON.stringify(ingredientesArmazenados)
+  );
 }
+
 
 //TAREFA 1.3a:
 //Implementar método/função responsável pela busca de ingrediente(s) na lista salva nos dados locais.

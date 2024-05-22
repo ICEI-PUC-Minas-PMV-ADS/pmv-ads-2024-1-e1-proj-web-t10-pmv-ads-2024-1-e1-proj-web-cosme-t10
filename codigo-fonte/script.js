@@ -13,6 +13,7 @@
 //Criar lista de elementos baseado na modelagem de dados que definirmos
 let listaDeIngredientes = [
   {
+    id: 1,
     Nome: "Parabenos",
     formulaQuimica: "C10H12O3",
     Descricao:
@@ -23,6 +24,7 @@ let listaDeIngredientes = [
       "AHN, Hae-Sun et al. Toxicity and endocrine disrupting effect of parabens. Korean Journal of Environmental Biology, v. 27, n. 4, p. 323-333, 2009..",
   },
   {
+    id: 2,
     Nome: "Acrilatos",
     formulaQuimica: "CH2=CHCO-2",
     Descricao:
@@ -33,6 +35,7 @@ let listaDeIngredientes = [
       ": SPENCER, Ashley; GAZZANI, Paul; THOMPSON, Donna A. Acrylate and methacrylate contact allergy and allergic contact disease: a 13‐year review. Contact Dermatitis, v. 75, n. 3, p. 157-164, 2016.",
   },
   {
+    id: 3,
     Nome: "Ftalatos",
     formulaQuimica: "C8H4O4-2",
     Descricao:
@@ -43,6 +46,7 @@ let listaDeIngredientes = [
       "WANG, Yufei; QIAN, Haifeng. Phthalates and their impacts on human health. In: Healthcare. Multidisciplinary Digital Publishing Institute, 2021. p. 603.",
   },
   {
+    id: 4,
     Nome: "Cloreto de benzalcônio",
     formulaQuimica: "CH₃(CH₂)₁₀CH₂ₙOSO",
     Descricao: "Um conservante utilizado ",
@@ -51,6 +55,7 @@ let listaDeIngredientes = [
       "BASKETTER, David A. et al. Strong irritants masquerading as skin allergens: the case of benzalkonium chloride. Contact dermatitis, v. 50, n. 4, p. 213-217, 2004.",
   },
   {
+    id: 5,
     Nome: "Oxybenzona",
     formulaQuimica: "C14H12O3",
     Descricao:

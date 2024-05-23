@@ -65,6 +65,30 @@ let listaDeIngredientes = [
 //Implementar método/função responsável pela busca de ingrediente(s) na lista salva nos dados locais.
 //Busca será feita pelo(s) nome(s) e deve existir a lógica que possibilita a busca de um ou mais ingredientes.
 
+const buscarIngredientes=(lista,busca)=>{
+  let resultadosEncontrados=[];
+  listaDeIngredientes.forEach(ingrediente=>{
+    busca.forEach(pesquisaUsuario=>{
+      if(ingrediente.nome.toLowerCase().includes(pesquisaUsuario.toLowerCase())){
+        resultadosEncontrados.push(ingrediente);
+      }
+    });
+  });
+  return resultadosEncontrados;
+}
+
+const eventosButtonLupa=document.getElementById("button-pesquisa");
+
+eventosButtonLupa.addEventListener("click",(event)=>{
+  event.preventDefault();//Previne o encerramento automático da página
+
+  let stringInput=document.getElementById("input-pesquisa").value.trim();
+  let termosPesquisa = stringInput.split(",");
+ // console.log("Dados do input: ", stringInput);
+  let retornoIngredientes=buscarIngredientes(listaDeIngredientes,termosPesquisa);
+  console.log("resultados:",retornoIngredientes);
+});
+  
 //TAREFA 1.3b:
 //Implementar funcionalidade de sugestão de pesquisa incremental.
 

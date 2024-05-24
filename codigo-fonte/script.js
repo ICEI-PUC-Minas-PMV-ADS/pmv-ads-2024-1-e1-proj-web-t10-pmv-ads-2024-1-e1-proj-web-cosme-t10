@@ -71,6 +71,18 @@ let listaDeIngredientes = [
       "DINARDO, Joseph C.; DOWNS, Craig A. Dermatological and environmental toxicological impact of the sunscreen ingredient oxybenzone/benzophenone‐3. Journal f cosmetic dermatology, v. 17, n. 1, p. 15-19, 2018",
     ehIndesejado: true,
   },
+  {
+    nome: "Agua",
+    ehIndesejado: false,
+  },
+  {
+    nome: "Glicerina",
+    ehIndesejado: false,
+  },
+  {
+    nome: "Sacarose",
+    ehIndesejado: false,
+  },
 ];
 
 //TAREFA 1.3a:

@@ -16,37 +16,60 @@ let listaDeIngredientes = [
     nome: "Isobutilparabeno",
     grupo: "Parabenos",
     formulaQuimica: " C11H14O3",
+    descricao:
+      "Parabenos são ingredientes usados como preservativos em produtos farmacológicos e cosméticos.",
     efeitosAdversos:
       "Podem atuar como desreguladores endócrinos no corpo humano, causando alterações no sistema nervoso, na função imunológica, problemas metabólicos e alterando a fertilidade dos órgãos reprodutores.",
-    ingIndesejados: true,
+    fonte:
+      "Fonte: AHN, Hae-Sun et al. Toxicity and endocrine disrupting effect of parabens. Korean Journal of Environmental Biology, v. 27, n. 4, p. 323-333, 2009.",
+    ehIndesejado: true,
   },
   {
     nome: "Acrilato de Acrilonitrila Estireno",
     grupo: "Acrilatos",
     formulaQuimica: "C18H23NO2",
+    descricao:
+      ": São ingredientes utilizados em produtos cosméticos, que adiciona a qualidade de à prova- de água",
     efeitosAdversos:
       "Podem causar alergia de contato, como dermatite e estomatite",
-    ingIndesejados: true,
+    fonte:
+      "SPENCER, Ashley; GAZZANI, Paul; THOMPSON, Donna A. Acrylate and methacrylate contact allergy and allergic contact disease: a 13‐year review. Contact  Dermatitis, v. 75, n. 3, p. 157-164, 2016",
+    ehIndesejado: true,
   },
   {
     nome: "Ftalato de dietila",
     grupo: "Ftalatos",
     formulaQuimica: "C12H14O4",
+    descricao:
+      "São compostos químicos usados na maioria dos produtos que tem contato  com plásticos, durante a produção, condicionamento e entrega. ",
     efeitosAdversos:
       " Podem atuar como disruptores endócrinos e no funcionamento dediversos órgãos, que tem impacto negativo a longo prazo no crescimento e desenvolvimento infantil. ",
+    Fonte:
+      "WANG, Yufei; QIAN, Haifeng. Phthalates and their impacts on human health. In: Healthcare. Multidisciplinary Digital Publishing Institute, 2021. p. 603.",
+    ehIndesejado: true,
   },
   {
     nome: "Cloreto de benzalcônio",
     grupo: "Quartenário de Amônia",
     formulaQuimica: ": CH₃(CH₂)₁₀CH₂ₙOSO₃",
+    descricao:
+      " Um conservante utilizado em cosméticos, desinfetantes de pele e soluções oftalmológicas e outros produtos.",
     efeitosAdversos: " Irritação na pele e dermatite de contato.",
+    Fonte:
+      "BASKETTER, David A. et al. Strong irritants masquerading as skin allergens: the case of benzalkonium chloride. Contact dermatitis, v. 50, n. 4, p. 213-217, 2004",
+    ehIndesejado: true,
   },
   {
     nome: "Oxibenzona",
     grupo: "Cetonas",
     formulaQuimica: "C14H12O3",
+    Descrição:
+      "Um emergente contaminante humano e ambiental, utilizado em protetores solares e produtos cosméticos",
     efeitosAdversos:
       "Um emergente contaminante humano e ambiental, utilizado em protetores solares e produtos cosméticos.",
+    Fonte:
+      "DINARDO, Joseph C.; DOWNS, Craig A. Dermatological and environmental toxicological impact of the sunscreen ingredient oxybenzone/benzophenone‐3. Journal f cosmetic dermatology, v. 17, n. 1, p. 15-19, 2018",
+    ehIndesejado: true,
   },
 ];
 

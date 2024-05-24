@@ -17,7 +17,7 @@ let listaDeIngredientes = [
     grupo: "Parabenos",
     formulaQuimica: " C11H14O3",
     descricao:
-      "Parabenos são ingredientes usados como preservativos em produtos farmacológicos e cosméticos.",
+      "Isobutilparabeno ou éster butílico do ácido para-hidroxibenzoico é utilizado como preservativo antifúngico em cosméticos. Também é um componente de vários medicamentos como fluido de suspensão.",
     efeitosAdversos:
       "Podem atuar como desreguladores endócrinos no corpo humano, causando alterações no sistema nervoso, na função imunológica, problemas metabólicos e alterando a fertilidade dos órgãos reprodutores.",
     fonte:
@@ -29,11 +29,11 @@ let listaDeIngredientes = [
     grupo: "Acrilatos",
     formulaQuimica: "C18H23NO2",
     descricao:
-      ": São ingredientes utilizados em produtos cosméticos, que adiciona a qualidade de à prova- de água",
+      "O Acrilato de Acrilonitrila Estireno ou ASA é um copolímero composto por três monômeros principais: Acrilonitrila (C3H3N): Proporciona resistência química e térmica ao material. Estireno (C8H8): Contribui para a rigidez e trabalhabilidade do material. Acrilato: Ajuda a melhorar a resistência às intempéries e a radiação UV.",
     efeitosAdversos:
       "Podem causar alergia de contato, como dermatite e estomatite",
     fonte:
-      "SPENCER, Ashley; GAZZANI, Paul; THOMPSON, Donna A. Acrylate and methacrylate contact allergy and allergic contact disease: a 13‐year review. Contact  Dermatitis, v. 75, n. 3, p. 157-164, 2016",
+      "SPENCER, Ashley; GAZZANI, Paul; THOMPSON, Donna A. Acrylate and methacrylate contact allergy and allergic contact disease: a 13‐year review. Contact  Dermatitis, v. 75, n. 3, p. 157-164, 2016.",
     ehIndesejado: true,
   },
   {
@@ -41,7 +41,7 @@ let listaDeIngredientes = [
     grupo: "Ftalatos",
     formulaQuimica: "C12H14O4",
     descricao:
-      "São compostos químicos usados na maioria dos produtos que tem contato  com plásticos, durante a produção, condicionamento e entrega. ",
+      "Ftalato de dietila é um éster do ácido ftálico. Ele ocorre como um líquido transparente à temperatura ambiente e não é encontrado na natureza. Não apresenta odor significativo, porém seu gosto é desagradável e amargo. É insolúvel em água e mais denso que a mesma.",
     efeitosAdversos:
       " Podem atuar como disruptores endócrinos e no funcionamento dediversos órgãos, que tem impacto negativo a longo prazo no crescimento e desenvolvimento infantil. ",
     Fonte:
@@ -64,7 +64,7 @@ let listaDeIngredientes = [
     grupo: "Cetonas",
     formulaQuimica: "C14H12O3",
     Descrição:
-      "Um emergente contaminante humano e ambiental, utilizado em protetores solares e produtos cosméticos",
+      "A oxibenzona (é um derivado da benzofenona), também conhecida como benzofenona-3 ou BP-3, é um composto orgânico utilizado em fotocosméticos, sendo encontrada em protectores solares, protectores labiais e hidratantes. A oxibenzona absorve raios UVB e UVA II, resultando em uma excitação fotoquímica e absorção de energia.",
     efeitosAdversos:
       "Desenvolvimento de alergias e sensibilidade à exposição solar em  humanos. Branqueamento de corais no meio ambiente.",
     Fonte:

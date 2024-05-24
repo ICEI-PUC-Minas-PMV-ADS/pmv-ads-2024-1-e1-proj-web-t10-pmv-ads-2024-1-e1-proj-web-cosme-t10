@@ -13,51 +13,40 @@
 //Criar lista de elementos baseado na modelagem de dados que definirmos
 let listaDeIngredientes = [
   {
-    nome: "Parabenos",
-    formulaQuimica: "C10H12O3",
-    descricao:
-      "Parabenos são ingredientes usados como preservativos em produtos farmacológicos e cosméticos",
+    nome: "Isobutilparabeno",
+    grupo: "Parabenos",
+    formulaQuimica: " C11H14O3",
     efeitosAdversos:
       "Podem atuar como desreguladores endócrinos no corpo humano, causando alterações no sistema nervoso, na função imunológica, problemas metabólicos e alterando a fertilidade dos órgãos reprodutores.",
-    fontes:
-      "AHN, Hae-Sun et al. Toxicity and endocrine disrupting effect of parabens. Korean Journal of Environmental Biology, v. 27, n. 4, p. 323-333, 2009..",
+    ingIndesejados: true,
   },
   {
-    nome: "Acrilatos",
-    formulaQuimica: "CH2=CHCO-2",
-    descricao:
-      "São ingredientes utilizados em produtos cosméticos, que adiciona a qualidade de “à prova- de água",
+    nome: "Acrilato de Acrilonitrila Estireno",
+    grupo: "Acrilatos",
+    formulaQuimica: "C18H23NO2",
     efeitosAdversos:
-      "em causar alergia de contato, como dermatite e estomatite.",
-    fontes:
-      ": SPENCER, Ashley; GAZZANI, Paul; THOMPSON, Donna A. Acrylate and methacrylate contact allergy and allergic contact disease: a 13‐year review. Contact Dermatitis, v. 75, n. 3, p. 157-164, 2016.",
+      "Podem causar alergia de contato, como dermatite e estomatite",
+    ingIndesejados: true,
   },
   {
-    nome: "Ftalatos",
-    formulaQuimica: "C8H4O4-2",
-    descricao:
-      "São compostos químicos usados na maioria dos produtos que tem contato com plásticos, durante a produção, condicionamento e entrega.",
+    nome: "Ftalato de dietila",
+    grupo: "Ftalatos",
+    formulaQuimica: "C12H14O4",
     efeitosAdversos:
-      "Podem atuar como disruptores endócrinos e no funcionamento de diversos órgãos, que tem impacto ",
-    fontes:
-      "WANG, Yufei; QIAN, Haifeng. Phthalates and their impacts on human health. In: Healthcare. Multidisciplinary Digital Publishing Institute, 2021. p. 603.",
+      " Podem atuar como disruptores endócrinos e no funcionamento dediversos órgãos, que tem impacto negativo a longo prazo no crescimento e desenvolvimento infantil. ",
   },
   {
     nome: "Cloreto de benzalcônio",
-    formulaQuimica: "CH₃(CH₂)₁₀CH₂ₙOSO",
-    descricao: "Um conservante utilizado ",
-    efeitosAdversos: "Irritação na pele e dermatite de contato.",
-    fontes:
-      "BASKETTER, David A. et al. Strong irritants masquerading as skin allergens: the case of benzalkonium chloride. Contact dermatitis, v. 50, n. 4, p. 213-217, 2004.",
+    grupo: "Quartenário de Amônia",
+    formulaQuimica: ": CH₃(CH₂)₁₀CH₂ₙOSO₃",
+    efeitosAdversos: " Irritação na pele e dermatite de contato.",
   },
   {
-    nome: "Oxybenzona",
+    nome: "Oxibenzona",
+    grupo: "Cetonas",
     formulaQuimica: "C14H12O3",
-    descricao:
+    efeitosAdversos:
       "Um emergente contaminante humano e ambiental, utilizado em protetores solares e produtos cosméticos.",
-    efeitosAdversos: "Desenvolvimento de alergias e sensibilidade ",
-    fontes:
-      ": DINARDO, Joseph C.; DOWNS, Craig A. Dermatological and environmental toxicological impact of the sunscreen ingredient oxybenzone",
   },
 ];
 
@@ -65,30 +54,37 @@ let listaDeIngredientes = [
 //Implementar método/função responsável pela busca de ingrediente(s) na lista salva nos dados locais.
 //Busca será feita pelo(s) nome(s) e deve existir a lógica que possibilita a busca de um ou mais ingredientes.
 
-const buscarIngredientes=(lista,busca)=>{
-  let resultadosEncontrados=[];
-  listaDeIngredientes.forEach(ingrediente=>{
-    busca.forEach(pesquisaUsuario=>{
-      if(ingrediente.nome.toLowerCase().includes(pesquisaUsuario.toLowerCase())){
+const buscarIngredientes = (lista, busca) => {
+  let resultadosEncontrados = [];
+  listaDeIngredientes.forEach((ingrediente) => {
+    busca.forEach((pesquisaUsuario) => {
+      if (
+        ingrediente.nome.toLowerCase().includes(pesquisaUsuario.toLowerCase())
+      ) {
         resultadosEncontrados.push(ingrediente);
       }
     });
   });
   return resultadosEncontrados;
-}
+};
 
-const eventosButtonLupa=document.getElementById("button-pesquisa");
+const eventosButtonLupa = document.getElementById("button-pesquisa");
 
-eventosButtonLupa.addEventListener("click",(event)=>{
-  event.preventDefault();//Previne o encerramento automático da página
+eventosButtonLupa.addEventListener("click", (event) => {
+  event.preventDefault(); //Previne o encerramento automático da página
 
-  let stringInput=document.getElementById("input-pesquisa").value.trim();
-  let termosPesquisa = stringInput.split(",").map(nomeIngrediente=>nomeIngrediente.trim());
- // console.log("Dados do input: ", stringInput);
-  let retornoIngredientes=buscarIngredientes(listaDeIngredientes,termosPesquisa);
-  console.log("resultados:",retornoIngredientes);
+  let stringInput = document.getElementById("input-pesquisa").value.trim();
+  let termosPesquisa = stringInput
+    .split(",")
+    .map((nomeIngrediente) => nomeIngrediente.trim());
+  // console.log("Dados do input: ", stringInput);
+  let retornoIngredientes = buscarIngredientes(
+    listaDeIngredientes,
+    termosPesquisa
+  );
+  console.log("resultados:", retornoIngredientes);
 });
-  
+
 //TAREFA 1.3b:
 //Implementar funcionalidade de sugestão de pesquisa incremental.
 

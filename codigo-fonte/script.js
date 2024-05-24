@@ -44,7 +44,7 @@ let listaDeIngredientes = [
       "Ftalato de dietila é um éster do ácido ftálico. Ele ocorre como um líquido transparente à temperatura ambiente e não é encontrado na natureza. Não apresenta odor significativo, porém seu gosto é desagradável e amargo. É insolúvel em água e mais denso que a mesma.",
     efeitosAdversos:
       " Podem atuar como disruptores endócrinos e no funcionamento dediversos órgãos, que tem impacto negativo a longo prazo no crescimento e desenvolvimento infantil. ",
-    Fonte:
+    fonte:
       "WANG, Yufei; QIAN, Haifeng. Phthalates and their impacts on human health. In: Healthcare. Multidisciplinary Digital Publishing Institute, 2021. p. 603.",
     ehIndesejado: true,
   },
@@ -55,7 +55,7 @@ let listaDeIngredientes = [
     descricao:
       " Um conservante utilizado em cosméticos, desinfetantes de pele e soluções oftalmológicas e outros produtos.",
     efeitosAdversos: " Irritação na pele e dermatite de contato.",
-    Fonte:
+    fonte:
       "BASKETTER, David A. et al. Strong irritants masquerading as skin allergens: the case of benzalkonium chloride. Contact dermatitis, v. 50, n. 4, p. 213-217, 2004",
     ehIndesejado: true,
   },
@@ -63,11 +63,11 @@ let listaDeIngredientes = [
     nome: "Oxibenzona",
     grupo: "Cetonas",
     formulaQuimica: "C14H12O3",
-    Descrição:
+    Descricao:
       "A oxibenzona (é um derivado da benzofenona), também conhecida como benzofenona-3 ou BP-3, é um composto orgânico utilizado em fotocosméticos, sendo encontrada em protectores solares, protectores labiais e hidratantes. A oxibenzona absorve raios UVB e UVA II, resultando em uma excitação fotoquímica e absorção de energia.",
     efeitosAdversos:
       "Desenvolvimento de alergias e sensibilidade à exposição solar em  humanos. Branqueamento de corais no meio ambiente.",
-    Fonte:
+    fonte:
       "DINARDO, Joseph C.; DOWNS, Craig A. Dermatological and environmental toxicological impact of the sunscreen ingredient oxybenzone/benzophenone‐3. Journal f cosmetic dermatology, v. 17, n. 1, p. 15-19, 2018",
     ehIndesejado: true,
   },

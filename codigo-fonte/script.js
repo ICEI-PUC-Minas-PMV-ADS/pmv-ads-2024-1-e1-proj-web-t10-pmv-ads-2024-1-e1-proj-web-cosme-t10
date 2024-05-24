@@ -66,7 +66,7 @@ let listaDeIngredientes = [
     Descrição:
       "Um emergente contaminante humano e ambiental, utilizado em protetores solares e produtos cosméticos",
     efeitosAdversos:
-      "Um emergente contaminante humano e ambiental, utilizado em protetores solares e produtos cosméticos.",
+      "Desenvolvimento de alergias e sensibilidade à exposição solar em  humanos. Branqueamento de corais no meio ambiente.",
     Fonte:
       "DINARDO, Joseph C.; DOWNS, Craig A. Dermatological and environmental toxicological impact of the sunscreen ingredient oxybenzone/benzophenone‐3. Journal f cosmetic dermatology, v. 17, n. 1, p. 15-19, 2018",
     ehIndesejado: true,

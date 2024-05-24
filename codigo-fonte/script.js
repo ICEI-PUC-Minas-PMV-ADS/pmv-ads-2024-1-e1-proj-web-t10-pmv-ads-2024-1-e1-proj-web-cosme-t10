@@ -83,7 +83,7 @@ eventosButtonLupa.addEventListener("click",(event)=>{
   event.preventDefault();//Previne o encerramento automático da página
 
   let stringInput=document.getElementById("input-pesquisa").value.trim();
-  let termosPesquisa = stringInput.split(",");
+  let termosPesquisa = stringInput.split(",").map(nomeIngrediente=>nomeIngrediente.trim());
  // console.log("Dados do input: ", stringInput);
   let retornoIngredientes=buscarIngredientes(listaDeIngredientes,termosPesquisa);
   console.log("resultados:",retornoIngredientes);

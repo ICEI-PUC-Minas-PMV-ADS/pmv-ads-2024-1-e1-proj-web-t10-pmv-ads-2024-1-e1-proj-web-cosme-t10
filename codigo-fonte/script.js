@@ -11,7 +11,7 @@
 
 //TAREFA 1.1:
 //Criar lista de elementos baseado na modelagem de dados que definirmos
-let listaDeIngredientes = [
+export let listaDeIngredientes = [
   {
     nome: "Isobutilparabeno",
     grupo: "Parabenos",

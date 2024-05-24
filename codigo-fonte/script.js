@@ -51,7 +51,7 @@ let listaDeIngredientes = [
   {
     nome: "Cloreto de benzalcônio",
     grupo: "Quartenário de Amônia",
-    formulaQuimica: ": CH₃(CH₂)₁₀CH₂ₙOSO₃",
+    formulaQuimica: ": C27H42ClN",
     descricao:
       " Um conservante utilizado em cosméticos, desinfetantes de pele e soluções oftalmológicas e outros produtos.",
     efeitosAdversos: " Irritação na pele e dermatite de contato.",

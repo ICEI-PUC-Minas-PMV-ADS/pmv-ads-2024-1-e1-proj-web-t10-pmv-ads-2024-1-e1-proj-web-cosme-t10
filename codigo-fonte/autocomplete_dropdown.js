@@ -1,4 +1,4 @@
-
+import { listaDeIngredientes } from './script.js';
 
 const inputPesquisa = document.getElementById('input-pesquisa');
 
@@ -46,6 +46,8 @@ function autocompleteClickHandler(event) {
     inputPesquisa.value += ', ';
 
     removeDropdown();
+
+    inputPesquisa.focus();
 }
 
 inputPesquisa.addEventListener('input', function (event) {
@@ -66,6 +68,38 @@ inputPesquisa.addEventListener('input', function (event) {
 
         if (sugestoesAutocomplete.length > 0) {
             criarDropdown(sugestoesAutocomplete, ultimoIngrediente);
+        }
+    }
+});
+
+let indiceSelecionado = -1;
+
+inputPesquisa.addEventListener('keydown', function (event) {
+    const dropdown = document.getElementById('autocomplete-dropdown');
+    if (!dropdown) return;
+
+    const itens = Array.from(dropdown.querySelectorAll('li'));
+
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+        event.preventDefault();
+
+        if (indiceSelecionado !== -1) {
+            itens[indiceSelecionado].classList.remove('selected');
+        }
+
+        if (event.key === 'ArrowDown') {
+            indiceSelecionado = (indiceSelecionado + 1) % itens.length;
+        } else {
+            indiceSelecionado = (indiceSelecionado - 1 + itens.length) % itens.length;
+        }
+
+        itens[indiceSelecionado].classList.add('selected');
+    } else if (event.key === 'Enter') {
+        event.preventDefault();
+
+        if (indiceSelecionado !== -1) {
+            itens[indiceSelecionado].click();
+            indiceSelecionado = -1;
         }
     }
 });

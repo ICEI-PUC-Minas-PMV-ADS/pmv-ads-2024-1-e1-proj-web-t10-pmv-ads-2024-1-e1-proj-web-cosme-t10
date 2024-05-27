@@ -27,6 +27,10 @@ function criarDropdown(sugestoesAutocomplete, ultimoIngrediente) {
 
     const form = document.querySelector('.barra-pesquisa-conteiner');
     form.appendChild(dropdown);
+
+    window.addEventListener('resize', function() {
+        dropdown.style.width = window.getComputedStyle(inputPesquisa).width;
+    });
 }
 
 function removeDropdown() {

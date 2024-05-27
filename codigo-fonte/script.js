@@ -91,11 +91,10 @@ export let listaDeIngredientes = [
 
 const buscarIngredientes = (lista, busca) => {
   let resultadosEncontrados = [];
-  listaDeIngredientes.forEach((ingrediente) => {
+  lista.forEach((ingrediente) => {
     busca.forEach((pesquisaUsuario) => {
       if (
-        ingrediente.nome.toLowerCase().includes(pesquisaUsuario.toLowerCase())
-      ) {
+        ingrediente.nome.toLowerCase().includes(pesquisaUsuario.toLowerCase())) {
         resultadosEncontrados.push(ingrediente);
       }
     });
@@ -110,13 +109,11 @@ eventosButtonLupa.addEventListener("click", (event) => {
 
   let stringInput = document.getElementById("input-pesquisa").value.trim();
   let termosPesquisa = stringInput
-    .split(",")
-    .map((nomeIngrediente) => nomeIngrediente.trim());
+  .split(",")
+  .map((nomeIngrediente) => nomeIngrediente.trim())  
+  .filter((nomeIngrediente) => nomeIngrediente !== "");
   // console.log("Dados do input: ", stringInput);
-  let retornoIngredientes = buscarIngredientes(
-    listaDeIngredientes,
-    termosPesquisa
-  );
+  let retornoIngredientes = buscarIngredientes(listaDeIngredientes,termosPesquisa);
   console.log("resultados:", retornoIngredientes);
 });
 

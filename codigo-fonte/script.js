@@ -99,7 +99,9 @@ const buscarIngredientes = (lista, busca) => {
       }
     });
   });
-  return resultadosEncontrados;
+  let resultadosDuplicados = new Set(resultadosEncontrados);
+  let resultadosSemDuplicados = [... resultadosDuplicados];
+  return resultadosSemDuplicados;
 };
 
 

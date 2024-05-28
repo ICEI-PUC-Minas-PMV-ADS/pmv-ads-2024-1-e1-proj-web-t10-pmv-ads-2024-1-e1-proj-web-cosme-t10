@@ -107,7 +107,11 @@ const eventosButtonLupa = document.getElementById("button-pesquisa");
 eventosButtonLupa.addEventListener("click", (event) => {
   event.preventDefault(); //Previne o encerramento automático da página
 
-  let stringInput = document.getElementById("input-pesquisa").value.trim() .split(",").map((nomeIngrediente) => nomeIngrediente.trim()).filter((nomeIngrediente) => nomeIngrediente !== "");
+  let stringInput = document.getElementById("input-pesquisa").value
+  .trim()
+  .split(",")
+  .map((nomeIngrediente) => nomeIngrediente.trim())
+  .filter((nomeIngrediente) => nomeIngrediente !== "");
   // console.log("Dados do input: ", stringInput);
   let retornoIngredientes = buscarIngredientes(listaDeIngredientes,stringInput);
   console.log("resultados:", retornoIngredientes);

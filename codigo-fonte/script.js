@@ -94,13 +94,14 @@ const buscarIngredientes = (lista, busca) => {
   lista.forEach((ingrediente) => {
     busca.forEach((pesquisaUsuario) => {
       if (
-        ingrediente.nome.toLowerCase().includes(pesquisaUsuario.toLowerCase())) {
+        ingrediente.nome.toLowerCase() === pesquisaUsuario.toLowerCase()) {
         resultadosEncontrados.push(ingrediente);
       }
     });
   });
   return resultadosEncontrados;
 };
+
 
 const eventosButtonLupa = document.getElementById("button-pesquisa");
 

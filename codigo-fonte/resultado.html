@@ -13,6 +13,8 @@
         href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="script.js" defer></script>
+    <script type="module" src="autocomplete_dropdown.js" defer></script>
 </head>
 
 <body>
@@ -87,8 +89,8 @@
     </header>
     <main>
         <form class="barra-pesquisa-conteiner">
-            <input id="input-pesquisa" type="text" placeholder="Escreva ou cole a lista de ingredientes aqui">
-            <button id="button-pesquisa" type="submit"><img class="lupa-img" src="assets/lupa.png"></button>
+            <input id="input-pesquisa" type="text" placeholder="Escreva ou cole a lista de ingredientes aqui" autocomplete="off">
+            <button id="button-pesquisa" type="submit"><img id="lupa-img" src="assets/lupa.png"></button>
         </form>
 
         <section class="card-ingrediente">

@@ -101,14 +101,17 @@ main {
 
 .barra-pesquisa-conteiner {
     display: flex;
+    position: relative;
+    flex-wrap: wrap;
     height: 11%;
     width: 105%;
     margin-bottom: 2%;
     align-items: end;
+    border: solid red;
 }
 
 #input-pesquisa {
-    width: 100%;
+    flex: 1.25;
     height: 35%;
     background-color: #E1F6F4;
     border-radius: 8px;
@@ -119,6 +122,37 @@ main {
     border: 0.5px solid #006D77;
     padding-left: 2%;
     box-sizing: border-box;
+}
+
+#autocomplete-dropdown {
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border-radius: 8px;
+    /*width: 437px;*/
+    padding: 0.3em;
+    box-sizing: border-box;
+    height: auto;
+    background-color: #E1F6F4;
+}
+
+#autocomplete-dropdown ul {
+    margin: 0.25em;
+    padding-left: 0;
+    list-style: none;
+    color: #006D77;
+}
+
+#autocomplete-dropdown ul li {
+    margin: 0.25em;
+}
+
+#autocomplete-dropdown ul li:hover, #autocomplete-dropdown ul li.selected{
+    background-color: #89dcd4;
+    cursor: pointer;
 }
 
 #input-pesquisa::placeholder {
@@ -136,6 +170,7 @@ main {
 
 #button-pesquisa {
     background-color: #E1F6F4;
+    flex: 0.05;
     width: auto;
     height: 35%;
     margin-left: 2.3%;
@@ -151,7 +186,7 @@ main {
     cursor: pointer;
 }
 
-.lupa-img {
+#lupa-img {
     height: 80%;
     margin: auto;
 }
@@ -336,7 +371,7 @@ main {
     }
 
     .barra-pesquisa-conteiner {
-        padding-bottom: 2%;
+        /*padding-bottom: 2%;*/
     }
 
 }
@@ -353,7 +388,7 @@ main {
     }
 
     .barra-pesquisa-conteiner {
-        padding-bottom: 3%;
+        /*padding-bottom: 3%;*/
     }
 }
 

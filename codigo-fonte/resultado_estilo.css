@@ -89,6 +89,7 @@ label[for="nightmode-toggle-checkbox"] {
     position: absolute;
     height: 15vh;
     margin: 1% 0 0 1%;
+    content: url('assets/logo-escura-resultado.png');
 }
 
 main {
@@ -335,7 +336,7 @@ main {
     padding: 10px;
 }
 
-@media screen and (max-width: 1043px) {
+@media screen and (max-width: 1105px) {
     body {
         background-color: #EDF6F9;
         display: flex;
@@ -345,27 +346,24 @@ main {
 
     header {
         display: flex;
+        justify-content: center;
         position: absolute;
         width: 100%;
         height: 15vh;
     }
 
-    picture{
+    .logo {
         display: flex;
-        width: 100%;
-        height: 35%;
+        height: 50%;
         align-self: end;
         flex-direction: column;
         align-items: center;
-    }
-
-    .logo {
-        height: 60%;
+        content: url('assets/logo-escura.png');
     }
 
     main {
         position: relative;
-        top: 15vh;
+        top: 10vh;
         width: 90vw;
     }
 

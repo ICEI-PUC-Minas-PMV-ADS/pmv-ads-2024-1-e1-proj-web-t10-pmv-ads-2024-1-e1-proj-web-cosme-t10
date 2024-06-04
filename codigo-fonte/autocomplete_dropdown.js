@@ -73,6 +73,19 @@ inputPesquisa.addEventListener('input', function (event) {
             !ingredientesInput.includes(nomeIngrediente)
         );
 
+        sugestoesAutocomplete.sort((a, b) => {
+            const aStartsWith = a.startsWith(ultimoIngrediente);
+            const bStartsWith = b.startsWith(ultimoIngrediente);
+
+            if (aStartsWith && !bStartsWith) {
+                return -1;
+            } else if (!aStartsWith && bStartsWith) {
+                return 1;
+            } else {
+                return a.localeCompare(b);
+            }
+        });
+
         if (sugestoesAutocomplete.length > 0) {
             criarDropdown(sugestoesAutocomplete, ultimoIngrediente);
         }

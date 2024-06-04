@@ -63,7 +63,7 @@ export let listaDeIngredientes = [
     nome: "Oxibenzona",
     grupo: "Cetonas",
     formulaQuimica: "C14H12O3",
-    Descricao:
+    descricao:
       "A oxibenzona (é um derivado da benzofenona), também conhecida como benzofenona-3 ou BP-3, é um composto orgânico utilizado em fotocosméticos, sendo encontrada em protectores solares, protectores labiais e hidratantes. A oxibenzona absorve raios UVB e UVA II, resultando em uma excitação fotoquímica e absorção de energia.",
     efeitosAdversos:
       "Desenvolvimento de alergias e sensibilidade à exposição solar em  humanos. Branqueamento de corais no meio ambiente.",
@@ -118,7 +118,7 @@ eventosButtonLupa.addEventListener("click", (event) => {
   // console.log("Dados do input: ", stringInput);
   let retornoIngredientes = buscarIngredientes(listaDeIngredientes,stringInput);
   console.log("resultados:", retornoIngredientes);
-});
+});   
 
 //TAREFA 1.3b:
 //Implementar funcionalidade de sugestão de pesquisa incremental.

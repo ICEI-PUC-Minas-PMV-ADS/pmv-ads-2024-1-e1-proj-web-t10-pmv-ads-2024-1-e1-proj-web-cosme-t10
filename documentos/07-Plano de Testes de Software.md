@@ -38,13 +38,31 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Responsável por elaborar o caso de Teste | Raianne Martins|
 
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste    | CT-03 - Verificar o retorno da exibição paginada do card e ordenação dos ingredientes |
 |:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Requisitos Associados | RF - 01, RF - 03 |
+| Objetivo do Teste | Verificar se a aplicação retorna as informações dos ingredientes tanto de forma paginada quando de forma ordenada, de acordo com as pesquisas feitas pelo usuário. |
+| Passos | Seguir as seguintes instruções: |
+|  | 1 - Abrir a aplicação através de um navegador de sua preferência, informando a URL necessária. |
+|  | 2 - Digitar ou colar a lista de ingredientes de diferentes produtos cosméticos. |
+|  | 3 - Clicar no botão de pesquisa ou pressionar "enter" em seu teclado. |
+|  | 4 - Conferir se or resultados dos ingredientes buscados são devidamente retornados na tela através do card de informações gerais e de maneira paginada. |
+|  | 5 - Navegar pelo card utilizando as setas de navegação. |
+| Critérios de êxito | O card de informações retornado deve ser exibido de forma paginada, com os ingredientes ordenados de acordo com a busca realizada pelo usuário. Além disso, as setas devem funcionar corretamente, permitindo o usuário navegar pelo card e conferindo as informações de sua busca. |
+| Responsável por elaborar o caso de Teste | Júlia Campos |
+
+|Caso de Teste    | CT - 04 - Verificar a funcionalidade da sugestão de preenchimento automático na barra de pesquisa |
+|:---|:---|
+| Requisitos Associados | RF - 05 |
+| Objetivo do Teste | Verificar se a sugestão de preenchimento automático na barra de pesquisa é ativada quando o usuário pesquisa por algum ingrediente. |
+| Passos | Seguir as seguintes instruções:|
+|  | 1 - Acessar o navegador de sua preferência. |
+|  | 2 - Informar a URL do projeto.|
+|  | 3 - Abrir a página do projeto.|
+|  | 4 - Digitar ingredientes na barra de pesquisa. |
+|  | 5 - Conferir se os ingredientes aparecem em uma barra de sugestões enquanto o usuário digita. |
+| Critérios de êxito | A aplicação deve apresentar sugestões de ingredientes relevantes de acordo com o que o usuário está digitando. |
+| Responsável por elaborar o caso de Teste | Júlia Campos |
 
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
@@ -52,7 +70,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | Descrição do objetivo do teste |
 | Passos | Indicar passos para a execução do teste |
 | Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Responsável por elaborar o caso de Teste | Nome do integrante da equipe |
 
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
@@ -60,15 +78,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | Descrição do objetivo do teste |
 | Passos | Indicar passos para a execução do teste |
 | Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
-
-|Caso de Teste    | CT-X - Título Caso de Teste |
-|:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Responsável por elaborar o caso de Teste | Nome do integrante da equipe |
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)

@@ -13,7 +13,10 @@ function criarDropdown(sugestoesAutocomplete, ultimoIngrediente) {
 
     const ul = document.createElement('ul');
 
-    sugestoesAutocomplete.forEach(sugestao => {
+    const maxSugestoes = 5;
+    const sugestoesFinais = sugestoesAutocomplete.slice(0, maxSugestoes);
+
+    sugestoesFinais.forEach(sugestao => {
         const li = document.createElement('li');
 
         li.innerHTML = sugestao.replace(new RegExp(ultimoIngrediente, 'g'),

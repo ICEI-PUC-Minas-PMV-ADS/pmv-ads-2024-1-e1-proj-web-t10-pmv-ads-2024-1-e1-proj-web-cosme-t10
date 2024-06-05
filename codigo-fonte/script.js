@@ -261,5 +261,30 @@ function filterIngredienteIndesejados(ingredientes) {
 //retornada na busca. Então os valores do card (nome, descrição, etc) são alterados de acordo com qual "página" (ingrediente
 //em que o card está mostrando num determinado momento).
 
+
+function mudarPagina(ingredientes, direcao) {
+  const numeracaoSpan = document.getElementById("numeracao");
+  const [indiceAtual, total] = numeracaoSpan.textContent.split("/").map(Number);
+
+  const novoIndice = indiceAtual + direcao;
+  if (novoIndice < 1 || novoIndice > total) return;
+
+  const elDescricaoConteiner = document.querySelector(".informacoes-ingrediente-conteiner");
+
+  const indesejados = filterIngredienteIndesejados(ingredientes);
+  const novoIngrediente = indesejados[novoIndice - 1];
+
+  if (novoIngrediente) {
+    elDescricaoConteiner.querySelector("#nome-ingrediente").textContent = `Nome: ${novoIngrediente.nome}`;
+    elDescricaoConteiner.querySelector("#formula-quimica-ingrediente").textContent = `Fórmula Quimica: ${novoIngrediente.formulaQuimica}`;
+    elDescricaoConteiner.querySelector("#descricao-ingrediente").textContent = `Descrição: ${novoIngrediente.descricao}`;
+    elDescricaoConteiner.querySelector("#efeitos-ingrediente").textContent = `Efeitos Adversos: ${novoIngrediente.efeitosAdversos}`;
+    elDescricaoConteiner.querySelector("#referencias-ingrediente").textContent = `Fonte: ${novoIngrediente.fonte}`;
+
+    numeracaoSpan.textContent = `${novoIndice}/${total}`;
+  }
+}
+
+
 //TAREFA 2:
 //Implementar a função de modo noturno.

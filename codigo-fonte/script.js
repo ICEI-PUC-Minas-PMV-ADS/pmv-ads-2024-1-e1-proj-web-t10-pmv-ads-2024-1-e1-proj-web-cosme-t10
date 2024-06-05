@@ -137,6 +137,122 @@ elBtnPesquisa.addEventListener("click", (event) => {
 //A partir do primeiro elemento encontrado, criar os elementos necessários juntamente do reposicionamento dos elementos
 //ja existentes a fim de transformar o visual da página index.html no da página de resultado.html (sem que exista a mudan
 //ça de páginas).
+function criarCardResultados(ingredientes) {
+  let elMain = document.querySelector("main");
+  elMain.style.display = 'none';
+  let resultadoStylesheet = document.getElementById('resultado-stylesheet');
+  resultadoStylesheet.rel = 'stylesheet';
+  let buscaStylesheet = document.getElementById('busca-stylesheet');
+  buscaStylesheet.disabled = true;
+  elMain.style.display = 'block';
+  atualizarConteudoCard(ingredientes);
+  resultadoStylesheet.disabled = false;
+}
+function atualizarConteudoCard(ingredientes) {
+  const elCardIngrediente = criarElCardIngredientes(ingredientes);
+  const elMain = document.querySelector("main");
+  elMain.appendChild(elCardIngrediente);
+}
+function criarElCardIngredientes(ingredientes) {
+  const existingCard = document.querySelector(".card-ingrediente");
+  if (existingCard) {
+    existingCard.remove();
+  }
+  let elCardIngrediente = document.createElement("section");
+  elCardIngrediente.classList.add("card-ingrediente");
+  const elClassificacaoConteiner = criarElClassificacaoIngredientes(ingredientes);
+  elCardIngrediente.appendChild(elClassificacaoConteiner);
+  const elListaIngredientesConteiner = criarElListaIngredientes(ingredientes);
+  elCardIngrediente.appendChild(elListaIngredientesConteiner);
+  const elDescricaoConteiner = createDescricaoIngrediente(ingredientes);
+  elCardIngrediente.appendChild(elDescricaoConteiner);
+  return elCardIngrediente;
+}
+function criarElClassificacaoIngredientes(ingredientes) {
+  let elClassificacaoConteiner = document.createElement("div");
+  elClassificacaoConteiner.classList.add("classificacao-ingrediente-conteiner");
+  let elClassificacaoTitulo = document.createElement('h3');
+  elClassificacaoTitulo.id = 'classificacao-ingrediente-titulo';
+  elClassificacaoTitulo.textContent = 'Ingredientes Indesejados';
+  elClassificacaoConteiner.appendChild(elClassificacaoTitulo);
+  let elIngredienteConteiner = document.createElement("div");
+  elIngredienteConteiner.classList.add("elemento-ingrediente-conteiner");
+  ingredientes.forEach((ingrediente) => {
+    let elIngrediente = document.createElement("div");
+    elIngrediente.classList.add("elemento-ingrediente");
+    elIngrediente.classList.toggle("elemento-ingrediente-indesejado", ingrediente.ehIndesejado);
+    elIngredienteConteiner.appendChild(elIngrediente);
+  });
+  elClassificacaoConteiner.appendChild(elIngredienteConteiner);
+  return elClassificacaoConteiner;
+}
+function criarElListaIngredientes(ingredientes) {
+  let elListaIngredientesConteiner = document.createElement("div");
+  elListaIngredientesConteiner.classList.add("lista-ingrediente-conteiner");
+  let tituloListaIngredientes = document.createElement("h3");
+  tituloListaIngredientes.id = "lista-ingrediente-titulo";
+  tituloListaIngredientes.textContent = "Lista de Ingredientes";
+  elListaIngredientesConteiner.appendChild(tituloListaIngredientes);
+  let elListaIngredientes = document.createElement("ul");
+  elListaIngredientes.classList.add("lista-ingrediente");
+  ingredientes.forEach((ingrediente) => {
+    let elItemLista = document.createElement("li");
+    elItemLista.textContent = ingrediente.nome;
+    elItemLista.classList.toggle("ingrediente-indesejado", ingrediente.ehIndesejado);
+    elListaIngredientes.appendChild(elItemLista);
+  });
+  elListaIngredientesConteiner.appendChild(elListaIngredientes);
+  return elListaIngredientesConteiner;
+}
+function createDescricaoIngrediente(ingredientes) {
+  let elDescricaoConteiner = document.createElement("div");
+  elDescricaoConteiner.classList.add("informacoes-ingrediente-conteiner");
+  const paginacaoConteiner = criarPaginacao(ingredientes);
+  elDescricaoConteiner.appendChild(paginacaoConteiner);
+  const primeiroIngrediente = ingredientes[0];
+  elDescricaoConteiner.appendChild(criarInfoElemento('Nome', primeiroIngrediente.nome, 'nome-ingrediente'));
+  elDescricaoConteiner.appendChild(criarInfoElemento('Fórmula Quimica', primeiroIngrediente.formulaQuimica, 'formula-quimica-ingrediente'));
+  elDescricaoConteiner.appendChild(criarInfoElemento('Descrição', primeiroIngrediente.descricao, 'descricao-ingrediente'));
+  elDescricaoConteiner.appendChild(criarInfoElemento('Efeitos Adversos', primeiroIngrediente.efeitosAdversos, 'efeitos-ingrediente'));
+  elDescricaoConteiner.appendChild(criarInfoElemento('Fonte', primeiroIngrediente.fonte, 'referencias-ingrediente'));
+  return elDescricaoConteiner;
+}
+function criaElSeta(direcao, clickHandler) {
+  const button = document.createElement("button");
+  button.classList.add("button-arrow");
+  const img = document.createElement("img");
+  img.src = `assets/seta-${direcao}.svg`;
+  button.appendChild(img);
+  button.onclick = clickHandler;
+  return button;
+}
+function criarPaginacao(ingredientes) {
+  const paginacaoConteiner = document.createElement("div");
+  paginacaoConteiner.classList.add("paginacao-conteiner");
+  const leftArrowButton = criaElSeta("esquerda", () => mudarPagina(ingredientes, -1));
+  const numeracaoSpan = document.createElement("span");
+  numeracaoSpan.id = "numeracao";
+  numeracaoSpan.textContent = `1/${countIndesejado(ingredientes)}`;
+  const rightArrowButton = criaElSeta("direita", () => mudarPagina(ingredientes, 1));
+  paginacaoConteiner.appendChild(leftArrowButton);
+  paginacaoConteiner.appendChild(numeracaoSpan);
+  paginacaoConteiner.appendChild(rightArrowButton);
+  return paginacaoConteiner;
+}
+function criarInfoElemento(tag, valor, id) {
+  let elemento = document.createElement("p");
+  elemento.id = id;
+  elemento.classList.add("info-ingrediente-texto");
+  elemento.innerHTML = `<strong>${tag}:</strong> ${valor}`;
+  return elemento;
+}
+function countIndesejado(ingredientes) {
+  return filterIngredienteIndesejados(ingredientes).length;
+}
+function filterIngredienteIndesejados(ingredientes) {
+  return ingredientes.filter((ingrediente) => ingrediente.ehIndesejado);
+}
+
 
 //TAREFA 1.5:
 //Com a lista de ingredientes retornada pela busca e com o primeiro card já criado, implementar paginação no card.

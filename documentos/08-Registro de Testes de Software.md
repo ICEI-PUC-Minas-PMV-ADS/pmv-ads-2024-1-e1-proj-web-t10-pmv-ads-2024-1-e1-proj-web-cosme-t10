@@ -15,7 +15,12 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/e31bd9ce-0a7f-405f-bb78-e4af805d91b4
 
-<br>
+
+
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/c25a90ef-354f-4d71-bfe0-d4f5d3eca34c)
+
+
+
 
 
 |Caso de Teste    | CT-02 - Verificar se a aplicação continua responsiva com mais de um ingrediente químico informado pelo usuário |

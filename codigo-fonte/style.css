@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+body.nightmode {
+    background-color: #072847;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -22,6 +26,10 @@ main {
     align-self: end;
     width: 35%;
     margin: 1% 0 0 1%;
+}
+
+body.nightmode .logo {
+    content: url('assets/logo-clara.png');
 }
 
 .barra-pesquisa-conteiner {
@@ -80,6 +88,12 @@ main {
     box-sizing: border-box;
 }
 
+body.nightmode #input-pesquisa {
+    background-color: #48738F;
+    color: #EDF6F9;
+    border: 0.5px solid #EDF6F9;
+}
+
 #autocomplete-dropdown {
     position: absolute;
     top: 100%;
@@ -95,11 +109,19 @@ main {
     background-color: #E1F6F4;
 }
 
+body.nightmode #autocomplete-dropdown {
+    background-color: #48738F;
+}
+
 #autocomplete-dropdown ul {
     margin: 0.25em;
     padding-left: 0;
     list-style: none;
     color: #006D77;
+}
+
+body.nightmode #autocomplete-dropdown ul {
+    color: #EDF6F9;
 }
 
 #autocomplete-dropdown ul li {
@@ -111,9 +133,17 @@ main {
     cursor: pointer;
 }
 
+body.nightmode #autocomplete-dropdown ul li:hover, body.nightmode #autocomplete-dropdown ul li.selected{
+    background-color: #072847FF;
+}
+
 #input-pesquisa::placeholder {
     /*cor da fonte dentro da barra de pesquisa*/
     color: #006D77;
+}
+
+body.nightmode #input-pesquisa::placeholder {
+    color: #EDF6F9;
 }
 
 #input-pesquisa:focus::placeholder {
@@ -139,6 +169,11 @@ main {
     box-sizing: border-box;
 }
 
+body.nightmode #button-pesquisa {
+    background-color: #48738F;
+    border: 0.5px solid #EDF6F9;
+}
+
 #button-pesquisa:hover {
     transform: scale(1.2);
     /*0.5 diminui  //  1.5 aumenta */
@@ -149,6 +184,10 @@ main {
 #lupa-img {
     height: 80%;
     margin: auto;
+}
+
+body.nightmode #lupa-img {
+    content: url('assets/lupa-alt.png');
 }
 
 .nightmode-toggle-display {

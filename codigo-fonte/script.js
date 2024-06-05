@@ -109,6 +109,7 @@ elBtnPesquisa.addEventListener("click", (event) => {
       .map((nomeIngrediente) => nomeIngrediente.trim().toLowerCase())
       .filter((nomeIngrediente) => nomeIngrediente !== "")
   );
+  document.getElementById("input-pesquisa").value = " ";
   // console.log("Dados do input: ",ingredientesBuscados );
   let ingredientesEncontrados = getIngredientes(ingredientesBuscados);
   console.log("resultados:", ingredientesEncontrados );

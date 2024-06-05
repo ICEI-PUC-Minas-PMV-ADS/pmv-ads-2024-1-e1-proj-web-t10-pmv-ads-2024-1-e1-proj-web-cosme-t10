@@ -64,13 +64,19 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | A aplicação deve apresentar sugestões de ingredientes relevantes de acordo com o que o usuário está digitando. |
 | Responsável por elaborar o caso de Teste | Júlia Campos |
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste    | CT-05 - Verificar funcionalidade e persistência do modo noturno |
 |:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável por elaborar o caso de Teste | Nome do integrante da equipe |
+| Requisitos Associados | RF-04 |
+| Objetivo do Teste | Verificar se o botão de alternância de temas (claro e escuro) funciona corretamente e persiste a escolha do usuário |
+| Passos | Seguir as seguintes instruções: |
+|  | 1 - Acessar o navegador de sua preferência. |
+|  | 2 - Informar a URL do projeto.|
+|  | 3 - Abrir a página do projeto.|
+|  | 4 - Clicar no botão referente a funcionalidade do modo noturno, localizado no canto superior direito da tela. |
+|  | 5 - Conferir se a cada clique ele alterna entre os temas disponíveis.|
+|  | 6 - Fechar e reabrir a página, conferindo se a aplicação continua no último tema escolhido.|
+| Critérios de êxito | Botão alterna entre os temas corretamente e salva a preferência do usuário para sua próxima visita a aplicação.|
+| Responsável por elaborar o caso de Teste | Maurício Honorato |
 
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|

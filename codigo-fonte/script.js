@@ -285,6 +285,5 @@ function mudarPagina(ingredientes, direcao) {
   }
 }
 
-
 //TAREFA 2:
 //Implementar a função de modo noturno.

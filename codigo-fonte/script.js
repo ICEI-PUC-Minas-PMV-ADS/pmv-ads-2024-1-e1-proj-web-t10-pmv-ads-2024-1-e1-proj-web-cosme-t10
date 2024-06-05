@@ -89,36 +89,46 @@ export let listaDeIngredientes = [
 //Implementar método/função responsável pela busca de ingrediente(s) na lista salva nos dados locais.
 //Busca será feita pelo(s) nome(s) e deve existir a lógica que possibilita a busca de um ou mais ingredientes.
 
-const buscarIngredientes = (lista, busca) => {
-  let resultadosEncontrados = [];
-  lista.forEach((ingrediente) => {
-    busca.forEach((pesquisaUsuario) => {
-      if (
-        ingrediente.nome.toLowerCase() === pesquisaUsuario.toLowerCase()) {
-        resultadosEncontrados.push(ingrediente);
-      }
-    });
-  });
-  let resultadosDuplicados = new Set(resultadosEncontrados);
-  let resultadosSemDuplicados = [... resultadosDuplicados];
-  return resultadosSemDuplicados;
-};
+
+function getIngredientes(ingredientesBuscados) {
+  return listaDeIngredientes.filter((ingrediente) =>
+      ingredientesBuscados.has(ingrediente.nome.toLowerCase())
+  );
+}
 
 
-const eventosButtonLupa = document.getElementById("button-pesquisa");
+const elBtnPesquisa = document.getElementById("button-pesquisa");
 
-eventosButtonLupa.addEventListener("click", (event) => {
-  event.preventDefault(); //Previne o encerramento automático da página
+elBtnPesquisa.addEventListener("click", (event) => {
+  event.preventDefault(); 
 
-  let stringInput = document.getElementById("input-pesquisa").value
-  .trim()
-  .split(",")
-  .map((nomeIngrediente) => nomeIngrediente.trim())
-  .filter((nomeIngrediente) => nomeIngrediente !== "");
-  // console.log("Dados do input: ", stringInput);
-  let retornoIngredientes = buscarIngredientes(listaDeIngredientes,stringInput);
-  console.log("resultados:", retornoIngredientes);
-});   
+  let ingredientesBuscados = new Set(
+    document.getElementById("input-pesquisa").value
+      .trim()
+      .split(",")
+      .map((nomeIngrediente) => nomeIngrediente.trim().toLowerCase())
+      .filter((nomeIngrediente) => nomeIngrediente !== "")
+  );
+  // console.log("Dados do input: ",ingredientesBuscados );
+  let ingredientesEncontrados = getIngredientes(ingredientesBuscados);
+  console.log("resultados:", ingredientesEncontrados );
+  let listaTemIngredienteIndesejado = ingredientesEncontrados.some(ingrediente => ingrediente.ehIndesejado === true);
+
+    if (ingredientesEncontrados.length > 0 && listaTemIngredienteIndesejado) {
+      criarCardResultados(ingredientesEncontrados);
+    } else {
+      alert("Nenhum ingrediente indesejado encontrado.");
+    }
+
+}); 
+
+
+  
+
+
+
+
+
 
 //TAREFA 1.3b:
 //Implementar funcionalidade de sugestão de pesquisa incremental.

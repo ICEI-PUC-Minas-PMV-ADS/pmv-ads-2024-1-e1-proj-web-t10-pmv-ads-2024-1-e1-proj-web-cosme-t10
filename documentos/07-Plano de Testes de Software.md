@@ -46,7 +46,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |  | 1 - Abrir a aplicação através de um navegador de sua preferência, informando a URL necessária. |
 |  | 2 - Digitar ou colar a lista de ingredientes de diferentes produtos cosméticos. |
 |  | 3 - Clicar no botão de pesquisa ou pressionar "enter" em seu teclado. |
-|  | 4 - Conferir se or resultados dos ingredientes buscados são devidamente retornados na tela através do card de informações gerais e de maneira paginada. |
+|  | 4 - Conferir se os resultados dos ingredientes buscados são devidamente retornados na tela através do card de informações gerais e de maneira paginada. |
 |  | 5 - Navegar pelo card utilizando as setas de navegação. |
 | Critérios de êxito | O card de informações retornado deve ser exibido de forma paginada, com os ingredientes ordenados de acordo com a busca realizada pelo usuário. Além disso, as setas devem funcionar corretamente, permitindo o usuário navegar pelo card e conferindo as informações de sua busca. |
 | Responsável por elaborar o caso de Teste | Júlia Campos |

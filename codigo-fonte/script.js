@@ -136,17 +136,11 @@ function criarCardResultados(ingredientes) {
     const elMain = document.querySelector("main");
     elMain.style.display = 'none';
 
-    const resultadoStylesheet = document.getElementById('resultado-stylesheet');
-    resultadoStylesheet.rel = 'stylesheet';
-
-    const buscaStylesheet = document.getElementById('busca-stylesheet');
-    buscaStylesheet.disabled = true;
+    document.body.classList.add('resultado');
 
     elMain.style.display = 'block';
 
     atualizarConteudoCard(ingredientes);
-
-    resultadoStylesheet.disabled = false;
 }
 
 function atualizarConteudoCard(ingredientes) {

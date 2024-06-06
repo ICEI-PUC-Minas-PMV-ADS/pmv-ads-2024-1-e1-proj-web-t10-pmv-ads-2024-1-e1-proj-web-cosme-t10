@@ -78,6 +78,20 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Botão alterna entre os temas corretamente e salva a preferência do usuário para sua próxima visita a aplicação.|
 | Responsável por elaborar o caso de Teste | Maurício Honorato |
 
+|Caso de Teste    | CT-06 - Verificar o retorno da exibição dos cards |
+|:---|:---|
+| Requisitos Associados | RF-06 |
+| Objetivo do Teste | Verificar se a aplicação retorna as informações dos ingredientes buscados e design dos cards |
+| Passos | Seguir as seguintes instruções: |
+|  | 1 - Abrir a aplicação através de um navegador de sua preferência, informando a URL necessária. |
+|  | 2 - Digitar ou colar a lista de ingredientes de diferentes produtos cosméticos no campo de pesquisa.|
+|  | 3 -	Clicar na lupa ou pressionar "enter" em seu teclado.|
+|  | 4 - Conferir se os ingredientes buscados são exibidos corretamente no card de ingredientes paginado:<ul><li>Verificar se todos os ingredientes buscados estão presentes no card.</li> <li>Verificar se os ingredientes estão ordenados conforme a busca realizada pelo usuário. </li> </ul>|
+|  | 5 -	Conferir se os ingredientes desejados e indesejados são exibidos corretamente no card ingredientes indesejados:<ul><li>	Verificar se os ingredientes desejados e indesejados estão destacados de acordo com o design especificado. </li></ul>|
+|  | 6 - Conferir o card de resultados gerais e verificar se as informações retornadas são precisas e relevantes de acordo com a busca realizada pelo usuário.|
+| Critérios de êxito |  Os ingredientes buscados foram exibidos corretamente nos cards correspondentes, com destaque adequado para os ingredientes desejados e indesejados, além de informações precisas e relevantes no card de resultados gerais.  |
+| Responsável por elaborar o caso de Teste | Alírio Henrique |
+
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
 | Requisitos Associados | RF-X |

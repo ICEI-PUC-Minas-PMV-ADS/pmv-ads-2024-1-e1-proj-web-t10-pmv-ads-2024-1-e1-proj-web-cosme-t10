@@ -118,10 +118,22 @@ elBtnPesquisa.addEventListener("click", (event) => {
     if (ingredientesEncontrados.length > 0 && listaTemIngredienteIndesejado) {
         criarCardResultados(ingredientesEncontrados);
         document.getElementById("input-pesquisa").value = "";
+
+        getConselho()
     } else {
         alert("Nenhum ingrediente indesejado encontrado.");
     }
 });
+
+//Inserido para satisfazer o requisito H4e :)
+function getConselho() {
+    fetch('https://api.adviceslip.com/advice')
+        .then(r => r.text())
+        .then(t => {
+            const respostaTexto = JSON.parse(t);
+            console.log(respostaTexto.slip.advice);
+        });
+}
 
 //TAREFA 1.3b:
 //Implementar funcionalidade de sugestão de pesquisa incremental.

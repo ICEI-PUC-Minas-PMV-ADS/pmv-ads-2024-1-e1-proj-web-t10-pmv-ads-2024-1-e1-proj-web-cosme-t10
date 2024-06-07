@@ -86,19 +86,25 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |  | 1 - Abrir a aplicação através de um navegador de sua preferência, informando a URL necessária. |
 |  | 2 - Digitar ou colar a lista de ingredientes de diferentes produtos cosméticos no campo de pesquisa.|
 |  | 3 -	Clicar na lupa ou pressionar "enter" em seu teclado.|
-|  | 4 - Conferir se os ingredientes buscados são exibidos corretamente no card de ingredientes paginado:<ul><li>Verificar se todos os ingredientes buscados estão presentes no card.</li> <li>Verificar se os ingredientes estão ordenados conforme a busca realizada pelo usuário. </li> </ul>|
-|  | 5 -	Conferir se os ingredientes desejados e indesejados são exibidos corretamente no card ingredientes indesejados:<ul><li>	Verificar se os ingredientes desejados e indesejados estão destacados de acordo com o design especificado. </li></ul>|
+|  | 4 - Conferir se os ingredientes buscados são exibidos corretamente no card de ingredientes paginado:<ul><li>Verificar se todos os ingredientes buscados estão presentes no card.|
+|  | 5 -	Conferir se os ingredientes desejados e indesejados são exibidos corretamente no card ingredientes indesejados:|
 |  | 6 - Conferir o card de resultados gerais e verificar se as informações retornadas são precisas e relevantes de acordo com a busca realizada pelo usuário.|
 | Critérios de êxito |  Os ingredientes buscados foram exibidos corretamente nos cards correspondentes, com destaque adequado para os ingredientes desejados e indesejados, além de informações precisas e relevantes no card de resultados gerais.  |
 | Responsável por elaborar o caso de Teste | Alírio Henrique |
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste    | CT-07 -Verificar se a aplicação construi e retorna ao usuário um card/tabela e suas informações de cada ingrediente.|
 |:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável por elaborar o caso de Teste | Nome do integrante da equipe |
+| Requisitos Associados | RF-02 |
+| Objetivo do Teste | Verificar se a aplicação construi e retorna ao usuário um card/tabela com as suas devídas  informações de cada ingrediente. |
+| Passos | Seguir as seguintes instruções |
+|  | 1 - Abrir a aplicação através de um navegador de sua preferência, informando a URL necessária. |
+|  | 2 - Digitar ou colar a lista de ingredientes de diferentes produtos cosméticos no campo de pesquisa.|
+|  | 3 -	Clicar na lupa ou pressionar "enter" em seu teclado.|
+|  | 4 - Conferir se os cards atualizaram e se  retornou os cards de resultado, além disso, verificar se os ingredientes buscados são retornados e exibidos corretamente juntamente a atualização  dos  cards e de ingredientes paginados:<ul><li>Verificar se todos os ingredientes buscados estão presentes no card.</li>  </ul>|
+|  | 5 -	Conferir se os ingredientes desejados e indesejados são exibidos corretamente no card ingredientes indesejados:<ul><li>	Verificar se os ingredientes desejados e indesejados estão destacados de acordo com o design especificado. </li></ul>|
+|  | 6 - Conferir o card de resultados gerais e verificar se as informações retornadas são precisas e relevantes de acordo com a busca realizada pelo usuário.|
+| Critérios de êxito | Verificar se a atualização dos cards e dos estilos forem bem sucedidias após clicar na lupa e efetizar a pesquisa.|
+| Responsável por elaborar o caso de Teste | Carlos Augusto da Silva |
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)

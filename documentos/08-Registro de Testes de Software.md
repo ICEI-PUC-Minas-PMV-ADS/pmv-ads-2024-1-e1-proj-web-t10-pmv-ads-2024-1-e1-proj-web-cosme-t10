@@ -57,7 +57,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 
 |Caso de Teste    |CT - 06 - Verificar o retorno da exibição dos cards|
 |:---|:---|
-| Resultados obtidos |  A aplicação retornou os cards com o design e irformações desejadas.  |
+| Resultados obtidos |  A aplicação apresentou os cards com o design e informações desejadas.  |
 | Responsável pela execução do caso de Teste | Alírio Henrique|
 
 

@@ -34,15 +34,25 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 
 <br>
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste    | CT-03 - Verificar o retorno da exibição paginada do card e ordenação dos ingredientes |
 |:---|:---|
-| Resultados obtidos | Descrever resultados do teste  |
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
+| Resultados obtidos | A aplicação retornou um card de informações de forma paginada e ordenada dos ingredientes pesquisados.  |
+| Responsável pela execução do caso de Teste | Júlia Campos |
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164889530/795feadf-17a9-4ec1-bc74-a3937e49d6d9
+
+
+
+|Caso de Teste    | CT - 04 - Verificar a funcionalidade da sugestão de preenchimento automático na barra de pesquisa |
 |:---|:---|
-| Resultados obtidos | Descrever resultados do teste  |
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
+| Resultados obtidos |  A aplicação forneceu sugestões de preenchimento automático relevantes e condizentes com o que estava sendo procurado na barra de pesquisa.  |
+| Responsável pela execução do caso de Teste | Júlia Campos |
 
 
-[Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164889530/07d43a26-408f-4f56-b21f-6f0196976d05
+
+

@@ -55,6 +55,18 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164889530/07d43a26-408f-4f56-b21f-6f0196976d05
 
+|Caso de Teste    | CT-05 - Verificar funcionalidade e persistência do modo noturno |
+|:---|:---|
+| Resultados obtidos |  A aplicação alternou e persistiu a preferência de tema selecionado pelo usuário corretamente.  |
+| Responsável pela execução do caso de Teste | Maurício Honorato |
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/1d08f7e8-bae6-4066-890e-01ed1496508b
+
+
+
+
+
 |Caso de Teste    |CT - 06 - Verificar o retorno da exibição dos cards|
 |:---|:---|
 | Resultados obtidos |  A aplicação apresentou os cards com o design e informações desejadas.  |
@@ -63,6 +75,16 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164914560/ec06f678-0511-4b09-acc9-d6bc436dedaf
+
+|Caso de Teste    |CT - 07 - -Verificar se a aplicação construi e retorna ao usuário um card/tabela e suas informações de cada ingrediente|
+|:---|:---|
+| Resultados obtidos |  A aplicação apresentou os cards com o design e informações desejadas.  |
+| Responsável pela execução do caso de Teste |Carlso Augusto Da Silva|
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/138498910/90a908a1-7f7d-4ba3-993c-0810d7ae23bf
 
 
 

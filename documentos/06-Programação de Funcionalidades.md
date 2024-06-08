@@ -49,7 +49,8 @@ RF-01: A aplicação deve oferecer uma funcionalidade de pesquisa por um ou mais
 
 A tela de resultados é obtida após as instruções presentes na tela inicial terem sido realizados com êxito. A página foi efetivada com a estrutura de HTML, CSS e JS. A tela de resultados, está presente na figura 13.
 
-![cosmedipedia_tela_resultado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/74ae7e7f-c901-4223-aed3-aff2fb25a97c)
+
+![figura_13](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/d0cfe0df-7317-4825-94fe-6c6e6eb136bc)
 
 
 Figura 13. Exemplo Tela de Resultados.
@@ -65,16 +66,16 @@ RF-02: A aplicação deve construir e retornar ao usuário um card/tabela com as
 
 #### Artefatos da funcionalidade
 
-● resultado.html;
+● index.html;
 
-● resultado_estilo.css;
+● style.css;
 
 ● script.js.
 
 
 #### Estrutura de Dados
 
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
 
 #### Instruções de acesso
 
@@ -89,7 +90,9 @@ RF-02: A aplicação deve construir e retornar ao usuário um card/tabela com as
 
 Os resultados obtidos pela pesquisa voltarão sobrepostos e paginados, podendo ser controlados através das duas setas entre a informação sobre qual ingrediente (página) está sendo mostrado no momento. Exemplo na figura 14 abaixo:
 
-![Captura de tela_11-5-2024_34228_127 0 0 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/ba3778b4-73a9-4c9e-a781-e2d4957a4b75)
+
+![Figura_14](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/dcc2f56a-f8a5-45a3-8c46-5aa9bf878df9)
+
 
 Figura 14. Exemplo paginação de Resultados. 
 
@@ -104,14 +107,17 @@ RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação
 
 #### Artefatos da funcionalidade
 
-- resultado.html
-- resultado_estilo.css
-- script.js
+● index.html;
+
+● style.css;
+
+● script.js.
+
 
 
 #### Estrutura de Dados
 
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
 
 #### Instruções de acesso
 
@@ -140,13 +146,15 @@ Figura 16. O botão de mudança de visualização no modo claro.
 Figura 17. O botão de mudaça de visualização no modo noturno. 
 
 
-As páginas do modo escuro, estão nas figuras 18 e 19 abaixo, já que serão dinamizadas com o <i>nightime-toggle</i>, elas serão implementadas na próxima etapa com o JavaScript.
+As páginas do modo escuro, estão nas figuras 18 e 19 abaixo, conforme foram implementadas pela equipe. 
 
-![tela_escura_inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/6d9b85c7-0667-47a3-ab6c-40fe5cf60f9a)
+![modo_noturno_atualizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/8f76bf0a-87b4-4424-83d6-493d75424b34)
+
 
 Figura 18. Modelo de implementação da Tela Inicial escura.
 
-![tela_escura_resultado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/df70a7da-4546-4837-aaf7-e3e24fb892e9)
+![modo_noturno_atualizado_resultados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/4da9387e-39b6-4f43-a746-cf884e6e1591)
+
 
 Figura 19. Modelo de implementação da Tela Resultados escura.
 
@@ -163,16 +171,14 @@ RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativ
 
 - index.html
 - style.css
-- resultado.html
-- resultado_estilo.css
 - script.js
+- nightmode_toggle.js
 
 
 #### Estrutura de Dados
 
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
 
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
 
 #### Instruções de acesso
 
@@ -182,9 +188,11 @@ RF-04: A aplicação deve oferecer aos usuários, a opção de ativar ou desativ
 
 ### Autopreenchimento (RF-05)
 
-Na barra de pesquisa, o ingrediente que for digitado pelo usuário, se for um dos ingredientes contidos no programa, irá fornecer a opção para o usuário completar a palavra sem a necessidade de digitar. Este requisito será plenamente atendido na próxima etapa. Para fins de visualização, pode-se observar como ele será implementado pela figura 20 abaixo:
+Na barra de pesquisa, o ingrediente que for digitado pelo usuário, se for um dos ingredientes contidos na aplicação, irá fornecer a opção para o usuário completar a palavra sem a necessidade de digitar. Para fins de visualização, pode-se observar como ele foi implementado pela equipe na figura 20 abaixo:
 
-![auto_complete_javascript](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/48948902-7448-43c2-bc74-2e8ef5702d0f)
+
+![figura_20](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/cae5c4a3-1c54-41bc-a003-e45ac0a90d43)
+
 
 Figura 20. Sugestão de autopreenchimento da página. 
 
@@ -198,17 +206,14 @@ RF-05: A aplicação deve fornecer uma funcionalidade de sugestão de preenchime
 
 ### Artefatos da funcionalidade
 
-- index.html
-- style.css
-- resultado.html
-- resultado_estilo.css
-- script.js
+- index.html;
+- style.css;
+- script.js;
+- autocomplete_dropdown.js.
 
 #### Estrutura de Dados
 
 ●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
-
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
 
 #### Instruções de acesso
 
@@ -231,7 +236,9 @@ A aplicação retorna um conjunto de cards com informações gerais de seguranç
    
 Confira o exemplo na figura 21 abaixo:
 
-![paginação_resultados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/123be400-7607-4f07-abb7-0ced978ef00a)
+
+![figura_21](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/336ececf-9fc4-4155-be17-a8fc8b0cd731)
+
 
 Figura 21. Display dos cards sobre a Segurança dos Ingredientes.
 
@@ -242,13 +249,14 @@ Júlia Campos, Carlos Augusto e Raianne Martins.
 RF-06: A aplicação deve construir e retornar ao usuário um card/tabela com as informações de segurança gerais sobre o conjunto de ingredientes (produto) quando a pesquisa possuir mais de um ingrediente.
 
 ### Artefatos da funcionalidade
-- resultado.html;
-- resultado_estilo.css;
+
+- index.html;
+- style.css;
 - script.js.
 
 #### Estrutura de Dados
 
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/resultado.html">resultado.html</a>
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
 
 #### Instruções de acesso
 1. Acessar a página inicial do projeto.

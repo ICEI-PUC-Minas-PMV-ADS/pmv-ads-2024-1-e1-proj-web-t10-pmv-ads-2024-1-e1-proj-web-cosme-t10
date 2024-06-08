@@ -592,3 +592,102 @@ body.nightmode #seta-esquerda {
         font-size: 0.75rem;
     }
 }
+.janela-modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #83c5bf8d;
+    backdrop-filter: blur (10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.modal {
+    position: relative;
+    width: 60%;
+    min-height: 200px;
+    background-color: #edf6f9f3;
+    backdrop-filter: blur (10px);
+    padding: 55px;
+    border-radius: 20px;
+}
+.fechar {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: #006d7794;
+    background-color: #006d7794;
+    color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h1 {
+
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(248, 58, 58);
+}
+
+p {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+body.nightmode .janela-modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #83c5bf8d;
+    backdrop-filter: blur (10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+body.nightmode .modal {
+    position: relative;
+    width: 60%;
+    min-height: 200px;
+    background-color: #00284D;
+    backdrop-filter: blur (10px);
+    padding: 55px;
+    border-radius: 20px;
+}
+body.nightmode .fechar {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color:#48738F;
+    background-color: #48738F;
+    color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+body.nightmode h1 {
+
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #edf6f9f3;
+
+    border: black;
+}
+
+body.nightmode p {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}

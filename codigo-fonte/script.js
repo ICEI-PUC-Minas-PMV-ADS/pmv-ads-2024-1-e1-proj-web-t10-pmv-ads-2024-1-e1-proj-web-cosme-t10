@@ -120,8 +120,44 @@ elBtnPesquisa.addEventListener("click", (event) => {
         document.getElementById("input-pesquisa").value = "";
 
         getConselho()
-    } else {
-        alert("Nenhum ingrediente indesejado encontrado.");
+    } else {function criarModal()
+        {
+           
+            const elJanela = document.createElement("div");
+            elJanela.classList.add("janela-modal");
+            elJanela.style.display = "flex";
+
+            const elAviso = document.createElement("div");
+            elAviso.classList.add("modal");
+
+            const elBotao = document.createElement("button");
+            elBotao.classList.add("fechar");
+
+            elBotao.id = "fechar";
+            elBotao.textContent = "X";
+
+            const elQuadrante = document.createElement ("h1");
+            elQuadrante.textContent = "Aviso";
+
+            const elParagh = document.createElement ("p");
+            elParagh.textContent = "Informe um ingrediente valido para a pesquisa";
+
+           elAviso.appendChild(elBotao);
+           elAviso.appendChild(elQuadrante);
+
+           elAviso.appendChild(elParagh);
+           elJanela.appendChild(elAviso);
+
+           document.body.appendChild(elJanela);
+
+            elJanela.addEventListener("click", (e) =>{
+                if(e.target.id == "fechar" || e.target.classList.contains ("janela-modal")){
+                    document.body.removeChild(elJanela);
+                }
+            });
+        }
+        
+        criarModal();
     }
 });
 

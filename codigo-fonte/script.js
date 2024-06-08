@@ -120,7 +120,16 @@ elBtnPesquisa.addEventListener("click", (event) => {
         document.getElementById("input-pesquisa").value = "";
 
         getConselho()
-    } else {function criarModal()
+
+    } else {
+
+        criarModal();
+        
+            }
+
+    });
+    
+    function criarModal(){
         {
            
             const elJanela = document.createElement("div");
@@ -138,9 +147,11 @@ elBtnPesquisa.addEventListener("click", (event) => {
 
             const elQuadrante = document.createElement ("h1");
             elQuadrante.textContent = "Aviso";
+            elQuadrante.id = "quadrante-aviso";
 
             const elParagh = document.createElement ("p");
             elParagh.textContent = "Informe um ingrediente valido para a pesquisa";
+            elParagh.id = "paragrafo";
 
            elAviso.appendChild(elBotao);
            elAviso.appendChild(elQuadrante);
@@ -156,10 +167,7 @@ elBtnPesquisa.addEventListener("click", (event) => {
                 }
             });
         }
-        
-        criarModal();
     }
-});
 
 //Inserido para satisfazer o requisito H4e :)
 function getConselho() {

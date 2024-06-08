@@ -92,7 +92,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 |Caso de Teste    | CT-06 - Verificar o retorno da exibição dos cards |
 |:---|:---|
-| Requisitos Associados | RF-06 |
+| Requisitos Associados | RF-02 e RF-06 |
 | Objetivo do Teste | Verificar se a aplicação retorna as informações dos ingredientes buscados e design dos cards |
 | Passos | Seguir as seguintes instruções: |
 |  | 1 - Abrir a aplicação através de um navegador de sua preferência, informando a URL necessária. |
@@ -106,17 +106,3 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 <br>
 
-|Caso de Teste    | CT-07 -Verificar se a aplicação construi e retorna ao usuário um card/tabela e suas informações de cada ingrediente.|
-|:---|:---|
-| Requisitos Associados | RF-02 |
-| Objetivo do Teste | Verificar se a aplicação construi e retorna ao usuário um card/tabela com as suas devídas  informações de cada ingrediente. |
-| Passos | Seguir as seguintes instruções |
-|  | 1 - Abrir a aplicação através de um navegador de sua preferência, informando a URL necessária. |
-|  | 2 - Digitar ou colar a lista de ingredientes de diferentes produtos cosméticos no campo de pesquisa.|
-|  | 3 -	Clicar na lupa ou pressionar "enter" em seu teclado.|
-|  | 4 - Conferir se os cards atualizaram e se  retornou os cards de resultado, além disso, verificar se os ingredientes buscados são retornados e exibidos corretamente juntamente a atualização  dos  cards e de ingredientes paginados:<ul><li>Verificar se todos os ingredientes buscados estão presentes no card.</li>  </ul>|
-|  | 5 -	Conferir se os ingredientes desejados e indesejados são exibidos corretamente no card ingredientes indesejados:<ul><li>	Verificar se os ingredientes desejados e indesejados estão destacados de acordo com o design especificado. </li></ul>|
-|  | 6 - Conferir o card de resultados gerais e verificar se as informações retornadas são precisas e relevantes de acordo com a busca realizada pelo usuário.|
-| Critérios de êxito | Verificar se a atualização dos cards e dos estilos forem bem sucedidias após clicar na lupa e efetizar a pesquisa.|
-| Responsável por elaborar o caso de Teste | Carlos Augusto da Silva |
- 

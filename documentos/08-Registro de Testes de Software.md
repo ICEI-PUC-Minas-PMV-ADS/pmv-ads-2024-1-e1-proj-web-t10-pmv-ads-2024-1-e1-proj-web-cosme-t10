@@ -30,7 +30,12 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 
 <br>
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/73848f08-347c-48e8-8e4c-7f0f6c92ec49
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/5a5a0bee-bfa2-43f1-bb36-bb4e02b752c6
+
+
 
 <br>
 

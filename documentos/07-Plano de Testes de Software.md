@@ -22,6 +22,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Retornar informações sobre o ingrediente ou, caso ele não seja encontrado, informar ao usuário, na página inicial que o ingrediente não foi encontrado |
 | Responsável por elaborar o caso de Teste | Raianne Martins |
 
+
 <br>
 
 |Caso de Teste    | CT-02 - Verificar se a aplicação continua responsiva com mais de uma formulação química informada pelo usuário |
@@ -38,6 +39,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Responsável por elaborar o caso de Teste | Raianne Martins|
 
 
+<br>
+
 |Caso de Teste    | CT-03 - Verificar o retorno da exibição paginada do card e ordenação dos ingredientes |
 |:---|:---|
 | Requisitos Associados | RF - 01, RF - 03 |
@@ -51,6 +54,9 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | O card de informações retornado deve ser exibido de forma paginada, com os ingredientes ordenados de acordo com a busca realizada pelo usuário. Além disso, as setas devem funcionar corretamente, permitindo o usuário navegar pelo card e conferindo as informações de sua busca. |
 | Responsável por elaborar o caso de Teste | Júlia Campos |
 
+
+<br>
+
 |Caso de Teste    | CT - 04 - Verificar a funcionalidade da sugestão de preenchimento automático na barra de pesquisa |
 |:---|:---|
 | Requisitos Associados | RF - 05 |
@@ -63,6 +69,9 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |  | 5 - Conferir se os ingredientes aparecem em uma barra de sugestões enquanto o usuário digita. |
 | Critérios de êxito | A aplicação deve apresentar sugestões de ingredientes relevantes de acordo com o que o usuário está digitando. |
 | Responsável por elaborar o caso de Teste | Júlia Campos |
+
+
+<br>
 
 |Caso de Teste    | CT-05 - Verificar funcionalidade e persistência do modo noturno |
 |:---|:---|
@@ -78,6 +87,9 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Botão alterna entre os temas corretamente e salva a preferência do usuário para sua próxima visita a aplicação.|
 | Responsável por elaborar o caso de Teste | Maurício Honorato |
 
+
+<br>
+
 |Caso de Teste    | CT-06 - Verificar o retorno da exibição dos cards |
 |:---|:---|
 | Requisitos Associados | RF-06 |
@@ -91,6 +103,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |  | 6 - Conferir o card de resultados gerais e verificar se as informações retornadas são precisas e relevantes de acordo com a busca realizada pelo usuário.|
 | Critérios de êxito |  Os ingredientes buscados foram exibidos corretamente nos cards correspondentes, com destaque adequado para os ingredientes desejados e indesejados, além de informações precisas e relevantes no card de resultados gerais.  |
 | Responsável por elaborar o caso de Teste | Alírio Henrique |
+
+<br>
 
 |Caso de Teste    | CT-07 -Verificar se a aplicação construi e retorna ao usuário um card/tabela e suas informações de cada ingrediente.|
 |:---|:---|

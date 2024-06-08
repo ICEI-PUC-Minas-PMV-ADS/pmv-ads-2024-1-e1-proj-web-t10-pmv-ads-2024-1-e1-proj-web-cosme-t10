@@ -108,66 +108,59 @@ elBtnPesquisa.addEventListener("click", (event) => {
             .map((nomeIngrediente) => nomeIngrediente.trim().toLowerCase())
             .filter((nomeIngrediente) => nomeIngrediente !== "")
     );
-    // console.log("Dados do input: ",ingredientesBuscados );
+    // console.log("Dados do input: ", ingredientesBuscados);
 
     let ingredientesEncontrados = getIngredientes(ingredientesBuscados);
-    // console.log("resultados:", ingredientesEncontrados );
+    // console.log("resultados:", ingredientesEncontrados);
 
     let listaTemIngredienteIndesejado = ingredientesEncontrados.some(ingrediente => ingrediente.ehIndesejado === true);
 
-    if (ingredientesEncontrados.length > 0 && listaTemIngredienteIndesejado) {
-        criarCardResultados(ingredientesEncontrados);
-        document.getElementById("input-pesquisa").value = "";
-
-        getConselho()
-
-    } else {
-
-        criarModal();
-        
-            }
-
-    });
-    
-    function criarModal(){
-        {
-           
-            const elJanela = document.createElement("div");
-            elJanela.classList.add("janela-modal");
-            elJanela.style.display = "flex";
-
-            const elAviso = document.createElement("div");
-            elAviso.classList.add("modal");
-
-            const elBotao = document.createElement("button");
-            elBotao.classList.add("fechar");
-
-            elBotao.id = "fechar";
-            elBotao.textContent = "X";
-
-            const elQuadrante = document.createElement ("h1");
-            elQuadrante.textContent = "Aviso";
-            elQuadrante.id = "quadrante-aviso";
-
-            const elParagh = document.createElement ("p");
-            elParagh.textContent = "Informe um ingrediente valido para a pesquisa";
-            elParagh.id = "paragrafo";
-
-           elAviso.appendChild(elBotao);
-           elAviso.appendChild(elQuadrante);
-
-           elAviso.appendChild(elParagh);
-           elJanela.appendChild(elAviso);
-
-           document.body.appendChild(elJanela);
-
-            elJanela.addEventListener("click", (e) =>{
-                if(e.target.id == "fechar" || e.target.classList.contains ("janela-modal")){
-                    document.body.removeChild(elJanela);
-                }
-            });
-        }
+    if (ingredientesEncontrados.length === 0 || !listaTemIngredienteIndesejado) {
+        modalNenhumIngredienteEncontrado();
+        return;
     }
+
+    criarCardResultados(ingredientesEncontrados);
+    document.getElementById("input-pesquisa").value = "";
+    getConselho();
+});
+
+function modalNenhumIngredienteEncontrado() {
+    const elJanela = document.createElement("div");
+    elJanela.classList.add("janela-modal");
+    elJanela.style.display = "flex";
+
+    const elAviso = document.createElement("div");
+    elAviso.classList.add("modal");
+
+    const elBotao = document.createElement("button");
+    elBotao.classList.add("fechar");
+
+    elBotao.id = "fechar";
+    elBotao.textContent = "X";
+
+    const elQuadrante = document.createElement("h1");
+    elQuadrante.textContent = "Aviso";
+    elQuadrante.id = "quadrante-aviso";
+
+    const elParagh = document.createElement("p");
+    elParagh.textContent = "Nenhum ingrediente indesejado encontrado. Por favor, tente novamente.";
+    elParagh.id = "paragrafo";
+
+    elAviso.appendChild(elBotao);
+    elAviso.appendChild(elQuadrante);
+
+    elAviso.appendChild(elParagh);
+    elJanela.appendChild(elAviso);
+
+    document.body.appendChild(elJanela);
+
+    elJanela.addEventListener("click", (e) => {
+        if (e.target.id == "fechar" || e.target.classList.contains("janela-modal")) {
+            document.body.removeChild(elJanela);
+        }
+    });
+}
 
 //Inserido para satisfazer o requisito H4e :)
 function getConselho() {

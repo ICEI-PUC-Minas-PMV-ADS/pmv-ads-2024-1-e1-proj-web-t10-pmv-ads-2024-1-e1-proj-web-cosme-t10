@@ -34,37 +34,60 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 
 <br>
 
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/abb07396-aa9a-4224-a0e8-6dc72d2da7e6)
+
+<br>
+
+
 |Caso de Teste    | CT-03 - Verificar o retorno da exibição paginada do card e ordenação dos ingredientes |
 |:---|:---|
 | Resultados obtidos | A aplicação retornou um card de informações de forma paginada e ordenada dos ingredientes pesquisados.  |
 | Responsável pela execução do caso de Teste | Júlia Campos |
 
-
+<br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164889530/795feadf-17a9-4ec1-bc74-a3937e49d6d9
 
+<br> 
 
+
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/0c209868-c6f7-40e1-a430-0e86d568a08a)
+
+
+<br>
 
 |Caso de Teste    | CT - 04 - Verificar a funcionalidade da sugestão de preenchimento automático na barra de pesquisa |
 |:---|:---|
 | Resultados obtidos |  A aplicação forneceu sugestões de preenchimento automático relevantes e condizentes com o que estava sendo procurado na barra de pesquisa.  |
 | Responsável pela execução do caso de Teste | Júlia Campos |
 
-
-
+<br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164889530/07d43a26-408f-4f56-b21f-6f0196976d05
+
+<br>
+
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/e4f1da8e-7cff-450c-84d3-ed868c2c7f1c)
+
+
+<br>
 
 |Caso de Teste    | CT-05 - Verificar funcionalidade e persistência do modo noturno |
 |:---|:---|
 | Resultados obtidos |  A aplicação alternou e persistiu a preferência de tema selecionado pelo usuário corretamente.  |
 | Responsável pela execução do caso de Teste | Maurício Honorato |
 
+<br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/1d08f7e8-bae6-4066-890e-01ed1496508b
 
+<br>
 
 
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/1388081c-2981-4848-bde6-1a4070607cdb)
+
+
+<br>
 
 
 |Caso de Teste    |CT - 06 - Verificar o retorno da exibição dos cards|
@@ -73,8 +96,16 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 | Responsável pela execução do caso de Teste | Alírio Henrique|
 
 
+<br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164914560/ec06f678-0511-4b09-acc9-d6bc436dedaf
+
+<br>
+
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/99a3d4c4-5678-4e6c-bbd0-4d7df9c2e584)
+
+
+<br>
 
 |Caso de Teste    |CT - 07 - -Verificar se a aplicação construi e retorna ao usuário um card/tabela e suas informações de cada ingrediente|
 |:---|:---|
@@ -82,7 +113,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 | Responsável pela execução do caso de Teste |Carlso Augusto Da Silva|
 
 
-
+<br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/138498910/90a908a1-7f7d-4ba3-993c-0810d7ae23bf
 

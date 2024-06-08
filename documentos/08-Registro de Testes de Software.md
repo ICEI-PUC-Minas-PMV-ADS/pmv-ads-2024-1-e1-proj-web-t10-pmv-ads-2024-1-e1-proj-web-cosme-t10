@@ -112,15 +112,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 
 <br>
 
-|Caso de Teste    |CT - 07 - -Verificar se a aplicação construi e retorna ao usuário um card/tabela e suas informações de cada ingrediente|
-|:---|:---|
-| Resultados obtidos |  A aplicação apresentou os cards com o design e informações desejadas.  |
-| Responsável pela execução do caso de Teste |Carlso Augusto Da Silva|
-
-
-<br>
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/138498910/90a908a1-7f7d-4ba3-993c-0810d7ae23bf
 
 
 

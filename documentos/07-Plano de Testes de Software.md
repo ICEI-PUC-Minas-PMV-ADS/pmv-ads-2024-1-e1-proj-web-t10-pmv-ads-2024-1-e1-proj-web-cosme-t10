@@ -25,7 +25,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 <br>
 
-|Caso de Teste    | CT-02 - Verificar se a aplicação continua responsiva com mais de uma formulação química informada pelo usuário |
+|Caso de Teste    | CT-02 - Verificar se a aplicação continua responsiva com mais de um ingrediente químico informado pelo usuário |
 |:---|:---|
 | Requisitos Associados | RF - 01, RF - 03 e RNF - 02.|
 | Objetivo do Teste | Verificar para quantas formulações a aplicação consegue fornecer informações sobre o ingrediente.|

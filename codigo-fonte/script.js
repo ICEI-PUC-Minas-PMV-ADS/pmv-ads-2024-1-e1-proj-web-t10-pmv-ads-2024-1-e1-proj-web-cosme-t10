@@ -116,7 +116,7 @@ elBtnPesquisa.addEventListener("click", (event) => {
     let listaTemIngredienteIndesejado = ingredientesEncontrados.some(ingrediente => ingrediente.ehIndesejado === true);
 
     if (ingredientesEncontrados.length === 0 || !listaTemIngredienteIndesejado) {
-        modalNenhumIngredienteEncontrado();
+        mostrarAvisoModalIngNaoEncontrado();
         return;
     }
 
@@ -125,7 +125,7 @@ elBtnPesquisa.addEventListener("click", (event) => {
     getConselho();
 });
 
-function modalNenhumIngredienteEncontrado() {
+function mostrarAvisoModalIngNaoEncontrado() {
     const elJanela = document.createElement("div");
     elJanela.classList.add("janela-modal");
     elJanela.style.display = "flex";

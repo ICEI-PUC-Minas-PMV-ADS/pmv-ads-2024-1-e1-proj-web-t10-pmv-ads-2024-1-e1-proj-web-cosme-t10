@@ -41,7 +41,7 @@ const elBtnPesquisa = document.getElementById("button-pesquisa");
 elBtnPesquisa.addEventListener("click", (event) => {
     event.preventDefault();
 
-    let ingredientesBuscados = new Set(
+    const ingredientesBuscados = new Set(
         document.getElementById("input-pesquisa").value
             .trim()
             .split(",")
@@ -50,13 +50,19 @@ elBtnPesquisa.addEventListener("click", (event) => {
     );
     // console.log("Dados do input: ", ingredientesBuscados);
 
-    let ingredientesEncontrados = getIngredientes(ingredientesBuscados);
+    const MAX_INGREDIENTES = 8;
+    if (ingredientesBuscados.size > MAX_INGREDIENTES) {
+        mostrarRespostaModal(`Busca excede quantidade máxima de ingredientes buscados por pesquisa. Por favor, refaça a busca com até ${MAX_INGREDIENTES} ingredientes.`);
+        return;
+    }
+
+    const ingredientesEncontrados = getIngredientes(ingredientesBuscados);
     // console.log("resultados:", ingredientesEncontrados);
 
-    let listaTemIngredienteIndesejado = ingredientesEncontrados.some(ingrediente => ingrediente.ehIndesejado === true);
+    const listaTemIngredienteIndesejado = ingredientesEncontrados.some(ingrediente => ingrediente.ehIndesejado === true);
 
     if (ingredientesEncontrados.length === 0 || !listaTemIngredienteIndesejado) {
-        mostrarRespostaModal();
+        mostrarRespostaModal('Nenhum ingrediente indesejado encontrado. Por favor, tente novamente.');
         return;
     }
 
@@ -65,8 +71,12 @@ elBtnPesquisa.addEventListener("click", (event) => {
     getConselho();
 });
 
-function mostrarRespostaModal() {
+function mostrarRespostaModal(mensagemAviso) {
     const modal = document.querySelector(".janela-modal");
+
+    const elAviso = document.querySelector('.janela-modal #paragrafo');
+    elAviso.innerText = mensagemAviso;
+
     modal.style.display = "flex";
 }
 

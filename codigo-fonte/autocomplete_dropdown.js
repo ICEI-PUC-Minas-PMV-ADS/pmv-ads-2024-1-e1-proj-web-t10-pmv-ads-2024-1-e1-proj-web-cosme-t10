@@ -1,4 +1,4 @@
-import { listaDeIngredientes } from './script.js';
+import { listaDeIngredientes } from './listaDeIngredientes_db.js';
 
 const inputPesquisa = document.getElementById('input-pesquisa');
 

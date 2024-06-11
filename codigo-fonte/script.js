@@ -18,7 +18,7 @@ import { listaDeIngredientes } from './listaDeIngredientes_db.js';
 //Implementar método/função responsável pela busca de ingrediente(s) na lista salva nos dados locais.
 //Busca será feita pelo(s) nome(s) e deve existir a lógica que possibilita a busca de um ou mais ingredientes.
 
-function getIngredientes(ingredientesBuscados) {
+function getIngredientesCorrespondentes(ingredientesBuscados) {
     //retorna na ordem encontrada na lista de ingredientes
     // return listaDeIngredientes.filter((ingrediente) =>
     //     ingredientesBuscados.has(ingrediente.nome.toLowerCase())
@@ -56,7 +56,7 @@ elBtnPesquisa.addEventListener("click", (event) => {
         return;
     }
 
-    const ingredientesEncontrados = getIngredientes(ingredientesBuscados);
+    const ingredientesEncontrados = getIngredientesCorrespondentes(ingredientesBuscados);
     // console.log("resultados:", ingredientesEncontrados);
 
     const listaTemIngredienteIndesejado = ingredientesEncontrados.some(ingrediente => ingrediente.ehIndesejado === true);

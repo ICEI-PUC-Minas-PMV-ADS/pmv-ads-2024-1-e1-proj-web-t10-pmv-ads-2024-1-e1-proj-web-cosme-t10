@@ -19,9 +19,21 @@ import { listaDeIngredientes } from './listaDeIngredientes_db.js';
 //Busca será feita pelo(s) nome(s) e deve existir a lógica que possibilita a busca de um ou mais ingredientes.
 
 function getIngredientes(ingredientesBuscados) {
-    return listaDeIngredientes.filter((ingrediente) =>
-        ingredientesBuscados.has(ingrediente.nome.toLowerCase())
-    );
+    //retorna na ordem encontrada na lista de ingredientes
+    // return listaDeIngredientes.filter((ingrediente) =>
+    //     ingredientesBuscados.has(ingrediente.nome.toLowerCase())
+    // );
+
+    //retorna na ordem buscada pelo usuário
+    let ingredientesEncontrados = [];
+    for (let nomeIngrediente of ingredientesBuscados) {
+        let ingrediente = listaDeIngredientes.find(ing => ing.nome.toLowerCase() === nomeIngrediente);
+        if (ingrediente) {
+            ingredientesEncontrados.push(ingrediente);
+        }
+    }
+
+    return ingredientesEncontrados;
 }
 
 const elBtnPesquisa = document.getElementById("button-pesquisa");

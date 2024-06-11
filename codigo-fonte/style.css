@@ -592,6 +592,7 @@ body.nightmode #seta-esquerda {
         font-size: 0.75rem;
     }
 }
+
 .janela-modal{
     width: 100vw;
     height: 100vh;
@@ -599,21 +600,23 @@ body.nightmode #seta-esquerda {
     top: 0;
     left: 0;
     background-color: #83c5bf8d;
-    backdrop-filter: blur (10px);
-    display: flex;
+    backdrop-filter: blur(10px);
+    display: none;
     align-items: center;
     justify-content: center;
     z-index: 999;
 }
+
 .modal {
     position: relative;
     width: 60%;
     min-height: 200px;
     background-color: #edf6f9f3;
-    backdrop-filter: blur (10px);
+    backdrop-filter: blur(10px);
     padding: 55px;
     border-radius: 20px;
 }
+
 .fechar {
     position: absolute;
     top: -10px;
@@ -650,8 +653,7 @@ body.nightmode .janela-modal{
     top: 0;
     left: 0;
     background-color: #83c5bf8d;
-    backdrop-filter: blur (10px);
-    display: flex;
+    backdrop-filter: blur(10px);
     align-items: center;
     justify-content: center;
     z-index: 999;
@@ -661,7 +663,7 @@ body.nightmode .modal {
     width: 60%;
     min-height: 200px;
     background-color: #00284D;
-    backdrop-filter: blur (10px);
+    backdrop-filter: blur(10px);
     padding: 55px;
     border-radius: 20px;
 }

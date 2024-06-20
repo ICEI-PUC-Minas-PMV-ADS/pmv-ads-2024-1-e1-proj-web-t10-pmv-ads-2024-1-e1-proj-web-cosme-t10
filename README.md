@@ -44,7 +44,12 @@ educá-los sobre os ingredientes presentes em produtos cosméticos
 
 # Hospedagem
 
-* <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/">Cosmepedia</a> 
+* Para acessar a aplicação desenvolvida pela equipe, acesse o link a seguir:
+<a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/codigo-fonte/index.html">Cosmepédia</a>
+<br>
+
+* Para acessar o read-me da aplicação, clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/">aqui</a>.
+
 
 # Código-Fonte
 

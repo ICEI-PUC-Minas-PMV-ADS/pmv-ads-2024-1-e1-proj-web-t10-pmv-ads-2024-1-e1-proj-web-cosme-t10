@@ -1,5 +1,11 @@
 # COSMEPÉDIA
 
+<br>
+
+![cosmepedia_logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/4683595a-34f2-47e3-9ede-f5377e59a02a)
+
+<br>
+
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
 `PROJETO - WEB FRONT END `
@@ -38,7 +44,7 @@ educá-los sobre os ingredientes presentes em produtos cosméticos
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/">Cosmepedia</a> 
 
 # Código-Fonte
 

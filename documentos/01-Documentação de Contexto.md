@@ -19,9 +19,7 @@ Desenvolver o site Cosmepédia para fornecer aos usuários um recurso interativo
 
 __Objetivos Específicos:__
 
-·	Oferecer informações abrangentes sobre agentes químicos encontrados nos ingredientes cosméticos, incluindo descrições, nomenclaturas químicas e efeitos adversos potenciais a curto e longo prazo.
-
-·	Disponibilizar imagens dos efeitos negativos quando disponíveis.
+·	Oferecer informações abrangentes sobre agentes químicos encontrados nos ingredientes cosméticos, incluindo descrições, nomenclaturas químicas e potenciais efeitos adversos.
 
 ·	Incentivar a pesquisa detalhada de ingredientes cosméticos pelos usuários, capacitando-os a fazer escolhas mais conscientes.
 

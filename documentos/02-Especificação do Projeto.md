@@ -75,6 +75,7 @@
 |RF-04 | A aplicação deve oferecer aos usuários, a opção de ativar ou desativar o modo noturno, que ajusta a interface para tons mais escuros para melhorar a experiência de uso em ambientes com pouca luz.    |  BAIXA  |
 |RF-05|  A aplicação deve fornecer uma funcionalidade de sugestão de preenchimento automático na barra de pesquisa incremental por ingredientes, que apresenta possíveis ingredientes à medida que o usuário digita, com base nos dados disponíveis no banco de dados de ingredientes.    | BAIXA |
 |RF-06|  A aplicação deve construir e retornar ao usuário um card/tabela com as informações de segurança gerais sobre o conjunto de ingredientes (produto) quando a pesquisa possuir mais de um ingrediente.    | MÉDIA   |
+|RF-07|  A aplicação deve construir tags abaixo da barra de pesquisa que apareçam de acordo com cada ingrediente pesquisado, possibilitando maior flexibilidade e legibilidade ao buscar por novos ingredientes.   | MÉDIA   |
 
 ### Requisitos não Funcionais
 

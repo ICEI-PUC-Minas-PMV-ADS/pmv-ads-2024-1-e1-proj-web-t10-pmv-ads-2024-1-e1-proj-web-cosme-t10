@@ -106,6 +106,12 @@ function criarEtiquetas(ingredientes) {
     elEtiquetaConteiner.style.display = "flex";
 }
 
+function resetarConteinerEtiqueta() {
+    const elEtiquetaConteiner = document.querySelector('.etiqueta-conteiner');
+    elEtiquetaConteiner.innerHTML = '';
+    elEtiquetaConteiner.style.display = 'none';
+}
+
 const elBtnPesquisa = document.getElementById("button-pesquisa");
 
 elBtnPesquisa.addEventListener("click", (event) => {
@@ -127,6 +133,8 @@ elBtnPesquisa.addEventListener("click", (event) => {
 
     if (ingredientesEncontrados.length === 0 || !listaTemIngredienteIndesejado) {
         mostrarRespostaModal('Nenhum ingrediente indesejado encontrado. Por favor, tente novamente.');
+        resetarConteinerEtiqueta();
+
         return;
     }
 
@@ -172,11 +180,7 @@ function criarPaginaResultados(ingredientes) {
     const elMain = document.querySelector("main");
     elMain.style.display = 'none';
 
-    const elEtiquetaConteiner = document.querySelector(".etiqueta-conteiner");
-    while (elEtiquetaConteiner.firstChild) {
-        elEtiquetaConteiner.removeChild(elEtiquetaConteiner.firstChild);
-    }
-    elEtiquetaConteiner.style.display = 'none';
+    resetarConteinerEtiqueta();
 
     document.body.classList.add('resultado');
 

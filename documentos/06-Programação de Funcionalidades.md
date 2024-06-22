@@ -8,7 +8,7 @@ Pré- requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-202
 
 Ao acessar a página inicial, o usuário já terá uma barra de pesquisa, a qual ele poderá pesquisar por um ou diversos ingredientes cosméticos. A página foi desenvolvida utilizando HTML, CSS e para dinamização JS. A tela inicial está presente na figura 12.
 
-![homepage_templatefigura12](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/fc859036-5c1f-4f14-b5fc-d0e8754c618c)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/2ef88ccd-a71d-4864-95d8-3db64bf5f5f0)
 
 Figura 12 - Exemplo da página inicial.
 
@@ -30,12 +30,12 @@ RF-01: A aplicação deve oferecer uma funcionalidade de pesquisa por um ou mais
 
 
 ### Estrutura de dados
-●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
+●<a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/codigo-fonte/index.html">index.html</a>
 
 
 #### Instruções de acesso
 
-1. Ao abrir o browser de preferência, o usuário deve informar a URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html .
+1. Ao abrir o browser de preferência, o usuário deve informar a URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/codigo-fonte/index.html .
 
 2. Logo que a página inicial aparecer na tela do usuário, o mesmo deve digitar ou colar o ingrediente e/ou a lista de ingredientes sobre o qual ele deseja obter as informações.
 
@@ -50,7 +50,8 @@ RF-01: A aplicação deve oferecer uma funcionalidade de pesquisa por um ou mais
 A tela de resultados é obtida após as instruções presentes na tela inicial terem sido realizados com êxito. A página foi efetivada com a estrutura de HTML, CSS e JS. A tela de resultados, está presente na figura 13.
 
 
-![figura_13](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/d0cfe0df-7317-4825-94fe-6c6e6eb136bc)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/9b8dbbdb-2dc0-4a52-87d5-71b186be751f)
+
 
 
 Figura 13. Exemplo Tela de Resultados.
@@ -131,7 +132,8 @@ RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação
 A página oferece a opção de trocar entre dois tipos de interface: a padrão e a do modo noturno, usando um botão no canto superior direito, presente tanto na página inicial, quanto na tela de resultados. Pode-se observar na figura 15, como exemplo, o botão na página inicial, demarcado para melhor observação na cor roxa. Nas figuras  16 e 17, temos, respectivamente, a interface do botão tanto no modo claro, quanto no modo noturno. 
 
 
-![figura_15](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/e6eff582-8517-441d-9d9c-c77e154c5c7b)
+![figura15](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/866d02ed-52cc-48d1-9853-a8d4085cec31)
+
 
 Figura 15. O botão de modo noturno, demarcado na página inicial.
 
@@ -148,15 +150,17 @@ Figura 17. O botão de mudaça de visualização no modo noturno.
 
 As páginas do modo escuro, estão nas figuras 18 e 19 abaixo, conforme foram implementadas pela equipe. 
 
-![modo_noturno_atualizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/8f76bf0a-87b4-4424-83d6-493d75424b34)
+![figura18](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/451ac0c1-fc5d-491d-b884-cb3010876121)
 
 
 Figura 18. Modelo de implementação da Tela Inicial escura.
 
-![modo_noturno_atualizado_resultados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/4da9387e-39b6-4f43-a746-cf884e6e1591)
+<br>
 
+![figura19](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/6d8bf307-98f5-4bfa-a9b2-b766d93f7c3d)
 
 Figura 19. Modelo de implementação da Tela Resultados escura.
+
 
 #### Responsável
 
@@ -272,7 +276,9 @@ Os ingredientes inseridos na barra de pesquisa são convertidos em um formato de
    
    
 Confira o exemplo na figura 22 abaixo:
-_[adicionar aqui a imagem]_
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/bb256935-c5bb-44ff-8c11-d1e1b99a1435)
+
 Figura 22. Exibição das etiquetas.
 
 ### Responsáveis

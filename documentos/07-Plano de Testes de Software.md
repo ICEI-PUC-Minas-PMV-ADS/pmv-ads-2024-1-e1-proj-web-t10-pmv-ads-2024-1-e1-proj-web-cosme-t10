@@ -106,3 +106,16 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 <br>
 
+|Caso de Teste    | CT-07 - Verificar a funcionalidade das etiquetas na barra de pesquisa |
+|:---|:---|
+| Requisitos Associados | RF- 07 |
+| Objetivo do Teste | Verificar se os ingredientes digitados ou colados na barra de pesquisa são convertidos em formato de etiquetas e se permite a remoção individual de alguma etiqueta. |
+| Passos | Seguir as seguintes instruções: |
+|  | 1 - Abrir a aplicação através de um navegador de sua preferência, informando a URL necessária. |
+|  | 2 - Digitar ou colar a lista de ingredientes de diferentes produtos cosméticos no campo de pesquisa.|
+|  | 3 - Conferir se os ingredientes são convertidos em etiquetas abaixo da barra de pesquisa:<ul><li>Verificar se cada ingrediente é transformado em uma etiqueta individual.</li></ul>. <ul><li>Verificar se cada etiqueta possui o nome correto do respectivo ingrediente, seguido de um ícone de remoção (x).</li></ul> |
+|  | 4 -	Remover algumas etiquetas clicando no ícone de remoção (x):<ul><li>Verificar se as etiquetas são removidas corretamente.</li></ul>. <ul><li>Verificar se o ingrediente correspondente é removido da lista de pesquisa.</li></ul> |
+| Critérios de êxito |  Cada ingrediente colado ou digitado na barra de pesquisa foi convertido em uma etiqueta individual corretamente, além disso, as etiquetas exibiram tanto o nome do ingrediente quanto o ícone de remoção (x) logo em seguida, que permitiu a remoção individual da etiqueta selecionada. |
+| Responsável por elaborar o caso de Teste | Júlia Campos |
+
+<br>

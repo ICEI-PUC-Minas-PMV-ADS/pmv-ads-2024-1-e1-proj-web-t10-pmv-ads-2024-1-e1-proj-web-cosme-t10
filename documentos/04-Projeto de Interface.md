@@ -13,7 +13,8 @@ Figura 3. User Flow.
 
 Na figura 4, vemos como funciona o User Flow na visualização de telas com a Home Page e a página de Resultados.
 
-![user_flow_2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/138498910/3d6d7697-42d6-4037-ad14-93b6831a0999) ![user flow 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/138498910/092ee27d-37d8-45c3-83eb-d7249f67f64d)
+
+![figura4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/fc59ab02-0fba-4d94-97f6-a2538cdabe9f)
 
 
 
@@ -44,19 +45,19 @@ A tela de Home Page, presente na figura 7, apresenta a barra de pesquisa, a qual
 
 No canto superior à direita da página, há um botão para a escolha de visualização do modo noturno para o usuário.  
 
-Para melhor visualição de como será a dinâmica da pesquisa, pode-se acessar o projeto em: https://www.figma.com/file/CirOGRXdi21hr11IpastQ3/Cosmepedia-(3)?type=design&node-id=0%3A1&mode=design&t=4nYdNVofgC5gml6K-1
 
-![cosmepedia_tela_inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/138498910/f5b8e8f9-6c80-4e5f-9987-8a943810cd9e)
-
+![figura7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/c0e24d95-89d6-4f9e-9c48-8068e72a5b2d)
 
 
 Figura 7 - Tela de Home Page.
-![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosme-t10/assets/164577121/8e3b6f23-eaf0-4604-93ab-2cfcc4219342)
+
+
 ### Tela - Resultados
 
 A tela de Resultados, presentes na figura 8, mostra como os usuários poderão visualizar os resultados. As informações estão contidas em 3 retangulos, o primeiro, mostra a quantidade de ingrediente perigosos presente na fórmula, o segundo, mostra na formula inserida pelo usuário a ordem do ingrediente perigoso dentro da fórmula e no terceiro, as informações gerais sobre o composto.
 
-![cosmepedia_pagina_resultados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/138498910/99a8ed84-6ab1-4430-bf3f-9e8b688fee5f)
+
+![figura8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/3607eb1e-d384-47cc-a6b1-263f6821b6a8)
 
 
 Figura 8. Tela de Resultados.

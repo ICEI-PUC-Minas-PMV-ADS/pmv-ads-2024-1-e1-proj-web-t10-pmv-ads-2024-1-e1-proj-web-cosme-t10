@@ -15,7 +15,8 @@ O código usado para a construção dos elementos citados acima se encontra <a h
 <h3><b>Tela principal - busca</b></h3>
 <p>Exibe-se, na figura 9, no canto superior direito, um botão de modo claro e escuro, seguido pela logo e nome do site, juntamente com uma barra de pesquisa.</p>
 
-![0a8b34bf-0d0b-4611-93e3-b7a6dbe5e039](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164889530/3f8d963d-e80b-4633-b077-269014772d24)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/230ecc6a-460b-4197-82c4-814ad8d324b6)
+
 
   <figcaption>Figura 9 - Tela de busca, modo claro</figcaption>
 
@@ -25,7 +26,8 @@ O código usado para a construção dos elementos citados acima se encontra <a h
 </p>
 <p>Na figura 10, exibe-se, no header da página, uma versão reduzida da logo e do nome da aplicação, juntamente com o botão de modo claro e escuro. No corpo, estão exibidos três cards de informações; cada um contém um foco diferente na informação a ser transmitida.</p>
 
-![ec3634e4-1889-400c-9a23-45fe59d36e12](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164889530/1791660f-82b8-476a-9445-dfa930472726)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/426d6158-2c24-43a8-8a97-b0ea7452f1a1)
+
 
 
   <figcaption>Figura 10 - Tela de resultado, modo claro</figcaption>

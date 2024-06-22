@@ -112,6 +112,15 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 
 <br>
 
+|Caso de Teste    |CT - 07 - Verificar o retorno da exibição dos cards|
+|:---|:---|
+| Resultados obtidos |  A aplicação apresentou as etiquetas quando selecionado o ingrediente.  |
+| Responsável pela execução do caso de Teste | Raianne Martins|
 
+<br>
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/0f96d575-f4b7-4939-987e-261d320f75a2
 
 

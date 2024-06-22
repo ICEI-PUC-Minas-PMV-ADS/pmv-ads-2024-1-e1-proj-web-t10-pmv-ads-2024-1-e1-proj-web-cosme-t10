@@ -24,10 +24,12 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 O esboço do quadro Kanban do grupo está disponível no seguinte endereço: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/980/views/1. Abaixo,na figura 1, apresentamos a representação atual do quadro Kanban:
 
 
-![cosmepedia_kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/82bdcb44-5e26-4c01-9553-ad15660e2ca9)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/312d3a6a-ca1a-4a5f-8bbe-3a37563133fe)
 
 
-Figura 1 - Representação do quadro Kanban para a etapa 4.
+
+Figura 1 - Representação do quadro Kanban para a etapa 5.
 
 
 

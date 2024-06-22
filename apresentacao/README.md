@@ -10,7 +10,10 @@
 ## Vídeo de apresentação
 
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/41f18614-3efa-4628-bcc9-3da82b055b31
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/87047035/9cbb0d42-7b2f-4e52-bcf1-d8c5422740dd
+
+
 
 
 ## Hospedagem

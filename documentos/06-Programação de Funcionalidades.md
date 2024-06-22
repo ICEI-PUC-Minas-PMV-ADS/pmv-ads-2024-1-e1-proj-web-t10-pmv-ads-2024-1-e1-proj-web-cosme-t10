@@ -79,7 +79,7 @@ RF-02: A aplicação deve construir e retornar ao usuário um card/tabela com as
 
 #### Instruções de acesso
 
-1. O usuário concluir com sucesso, os passos da Tela Inicial.
+1. O usuário deve concluir com sucesso, os passos da Tela Inicial.
 
 2. Caso haja mais de um ingrediente, o usuário deve clicar nas setas presentes no card maior para obter mais informações sobre os ingredientes presentes na lista a qual ele apresentou.
 
@@ -121,7 +121,7 @@ RF-03: Quando a busca pelo usuário conter mais de um ingrediente, a aplicação
 
 #### Instruções de acesso
 
-1. O usuário concluir com sucesso, os passos da Tela Inicial.
+1. O usuário deve concluir com sucesso, os passos da Tela Inicial.
 2. Ao obter os resultados, o usuário deverá clicar nas setas do card maior para obter informações dos outros ingredientes. 
 
 ![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/f3f702df-5948-442c-bcca-9269134300b2)
@@ -264,3 +264,35 @@ RF-06: A aplicação deve construir e retornar ao usuário um card/tabela com as
 3. Clicar no botão de pesquisa, representado pela lupa. 
 
 
+![linha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/assets/164577121/f3f702df-5948-442c-bcca-9269134300b2)
+
+### Etiquetas na Barra de Pesquisa (RF-07)
+
+Os ingredientes inseridos na barra de pesquisa são convertidos em um formato de etiquetas, com o objetivo de facilitar a visualização e manipulação dos ingredientes. Cada uma dessas etiquetas pode ser removida individualmente e a lista de ingredientes será atualizada conforme o usuário as manipula, adicionando ou removendo etiquetas.
+   
+   
+Confira o exemplo na figura 22 abaixo:
+_[adicionar aqui a imagem]_
+Figura 22. Exibição das etiquetas.
+
+### Responsáveis
+Alírio Henrique, Mauricio Honorato e Raianne Martins.
+
+### Requisito atendido
+RF-07: A aplicação deve permitir que os ingredientes inseridos na barra de pesquisa sejam convertidos em etiquetas. As etiquetas facilitarão a manipulação dos ingredientes
+
+### Artefatos da funcionalidade
+
+- index.html;
+- style.css;
+- script.js.
+
+#### Estrutura de Dados
+
+●<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-web-cosmepedia/blob/main/codigo-fonte/index.html">index.html</a>
+
+#### Instruções de acesso
+1. O usuário deve acessar a tela inicial da aplicação através do browser de sua preferência.
+2. O usuário deve digitar ou colar os ingredientes, os quais deseja obter mais informações.
+3. Observar se os ingredientes digitados os colados são convertidos em etiquetas, localizadas abaixo da barra de pesquisa.
+4. Para remover uma etiqueta, o usuário deverá clicar no ícone de remoção (x) na etiqueta correspondente.

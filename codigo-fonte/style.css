@@ -218,7 +218,7 @@ body.nightmode #button-pesquisa {
     border: 0.5px solid #EDF6F9;
 }
 
-#button-pesquisa:hover {
+#button-pesquisa:active {
     transform: scale(1.2);
     /*0.5 diminui  //  1.5 aumenta */
     cursor: pointer;
@@ -575,7 +575,7 @@ body.nightmode #seta-esquerda {
 
     body.resultado .logo {
         display: flex;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         height: 50%;
         align-self: end;
         flex-direction: column;
@@ -601,7 +601,7 @@ body.nightmode #seta-esquerda {
 
 @media screen and (max-width: 750px) {
     body.resultado .logo {
-        height: 40%;
+        height: 45%;
     }
 
     body.resultado main {
@@ -617,13 +617,13 @@ body.nightmode #seta-esquerda {
 
 @media screen and (max-width: 600px) {
     body.resultado .logo {
-        height: 35%;
-        margin-bottom: 2rem;
+        height: 40%;
+        margin-bottom: 1rem;
     }
 }
 
 
-@media screen and (max-width: 447px) {
+@media screen and (max-width: 500px) {
     body.resultado .classificacao-ingrediente-conteiner {
         height: auto;
     }
@@ -634,6 +634,11 @@ body.nightmode #seta-esquerda {
 
     body.resultado .lista-ingrediente {
         font-size: 0.9rem;
+    }
+
+    body.resultado .logo {
+        height: 35%;
+        margin-bottom: 1rem;
     }
 }
 

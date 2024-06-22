@@ -36,18 +36,82 @@ function getIngredientesCorrespondentes(ingredientesBuscados) {
     return ingredientesEncontrados;
 }
 
+const elInputPesquisa = document.querySelector('#input-pesquisa');
+
+function pesquisaHandler(event) {
+    let valorInputAtual = event.target.value;
+
+    if (event.type === 'paste') {
+        event.preventDefault();
+        const textoColado = (event.clipboardData || window.clipboardData).getData('text');
+        valorInputAtual += textoColado;
+        valorInputAtual = valorInputAtual.trim() + ', ';
+    }
+
+    if (valorInputAtual.endsWith(', ')) {
+        const ingredientesBuscados = new Set(
+            valorInputAtual
+                .trim()
+                .split(",")
+                .map((nomeIngrediente) => nomeIngrediente.trim().toLowerCase())
+                .filter((nomeIngrediente) => nomeIngrediente !== "")
+        );
+
+        criarEtiquetas(getIngredientesCorrespondentes(ingredientesBuscados));
+        elInputPesquisa.value = "";
+    }
+}
+
+elInputPesquisa.addEventListener('input', pesquisaHandler);
+elInputPesquisa.addEventListener('paste', pesquisaHandler);
+
+export function getIngredientesEtiquetados() {
+    const etiquetas = document.querySelectorAll(".etiqueta-conteiner .etiqueta p");
+    return Array.from(etiquetas).map(p => p.textContent.trim());
+}
+
+function criarEtiquetas(ingredientes) {
+    const elEtiquetaConteiner = document.querySelector(".etiqueta-conteiner");
+
+    const listaIngredientesEtiquetados = getIngredientesEtiquetados();
+
+    if (listaIngredientesEtiquetados.length >= 8) {
+        mostrarRespostaModal("Número máximo de ingredientes atingido. Por favor, faça sua busca.");
+        return;
+    }
+
+    ingredientes.forEach((ingrediente) => {
+        if (listaIngredientesEtiquetados.includes(ingrediente.nome.toLowerCase())) {
+            return;
+        }
+
+        const elEtiqueta = document.createElement("div");
+        elEtiqueta.classList.add("etiqueta");
+
+        const pEtiqueta = document.createElement("p");
+        pEtiqueta.textContent = ingrediente.nome.toLowerCase();
+        elEtiqueta.appendChild(pEtiqueta);
+
+        const btnEtiqueta = document.createElement("button");
+        btnEtiqueta.classList.add("remover-etiqueta");
+        btnEtiqueta.textContent = "x";
+        btnEtiqueta.addEventListener("click", () => {
+            elEtiqueta.remove();
+        });
+        elEtiqueta.appendChild(btnEtiqueta);
+
+        elEtiquetaConteiner.appendChild(elEtiqueta);
+    })
+
+    elEtiquetaConteiner.style.display = "flex";
+}
+
 const elBtnPesquisa = document.getElementById("button-pesquisa");
 
 elBtnPesquisa.addEventListener("click", (event) => {
     event.preventDefault();
 
-    const ingredientesBuscados = new Set(
-        document.getElementById("input-pesquisa").value
-            .trim()
-            .split(",")
-            .map((nomeIngrediente) => nomeIngrediente.trim().toLowerCase())
-            .filter((nomeIngrediente) => nomeIngrediente !== "")
-    );
+    const ingredientesBuscados = getIngredientesEtiquetados();
     // console.log("Dados do input: ", ingredientesBuscados);
 
     const MAX_INGREDIENTES = 8;
@@ -66,7 +130,7 @@ elBtnPesquisa.addEventListener("click", (event) => {
         return;
     }
 
-    criarCardResultados(ingredientesEncontrados);
+    criarPaginaResultados(ingredientesEncontrados);
     document.getElementById("input-pesquisa").value = "";
     getConselho();
 });
@@ -104,9 +168,15 @@ function getConselho() {
 //ja existentes a fim de transformar o visual da página index.html no da página de resultado.html (sem que exista a mudan
 //ça de páginas).
 
-function criarCardResultados(ingredientes) {
+function criarPaginaResultados(ingredientes) {
     const elMain = document.querySelector("main");
     elMain.style.display = 'none';
+
+    const elEtiquetaConteiner = document.querySelector(".etiqueta-conteiner");
+    while (elEtiquetaConteiner.firstChild) {
+        elEtiquetaConteiner.removeChild(elEtiquetaConteiner.firstChild);
+    }
+    elEtiquetaConteiner.style.display = 'none';
 
     document.body.classList.add('resultado');
 
@@ -195,12 +265,13 @@ function createDescricaoIngrediente(ingredientes) {
     const paginacaoConteiner = criarPaginacao(ingredientes);
     elDescricaoConteiner.appendChild(paginacaoConteiner);
 
-    const primeiroIngrediente = ingredientes[0];
-    elDescricaoConteiner.appendChild(criarInfoElemento('Nome', primeiroIngrediente.nome, 'nome-ingrediente'));
-    elDescricaoConteiner.appendChild(criarInfoElemento('Fórmula Quimica', primeiroIngrediente.formulaQuimica, 'formula-quimica-ingrediente'));
-    elDescricaoConteiner.appendChild(criarInfoElemento('Descrição', primeiroIngrediente.descricao, 'descricao-ingrediente'));
-    elDescricaoConteiner.appendChild(criarInfoElemento('Efeitos Adversos', primeiroIngrediente.efeitosAdversos, 'efeitos-ingrediente'));
-    elDescricaoConteiner.appendChild(criarInfoElemento('Fonte', primeiroIngrediente.fonte, 'referencias-ingrediente'));
+    const primeiroIngredienteIndesejado = ingredientes.find(ingrediente => ingrediente.ehIndesejado === true);
+
+    elDescricaoConteiner.appendChild(criarInfoElemento('Nome', primeiroIngredienteIndesejado.nome, 'nome-ingrediente'));
+    elDescricaoConteiner.appendChild(criarInfoElemento('Fórmula Quimica', primeiroIngredienteIndesejado.formulaQuimica, 'formula-quimica-ingrediente'));
+    elDescricaoConteiner.appendChild(criarInfoElemento('Descrição', primeiroIngredienteIndesejado.descricao, 'descricao-ingrediente'));
+    elDescricaoConteiner.appendChild(criarInfoElemento('Efeitos Adversos', primeiroIngredienteIndesejado.efeitosAdversos, 'efeitos-ingrediente'));
+    elDescricaoConteiner.appendChild(criarInfoElemento('Fonte', primeiroIngredienteIndesejado.fonte, 'referencias-ingrediente'));
 
     return elDescricaoConteiner;
 }

@@ -1,4 +1,5 @@
 import { listaDeIngredientes } from './listaDeIngredientes_db.js';
+import { getIngredientesEtiquetados } from "./script.js";
 
 const inputPesquisa = document.getElementById('input-pesquisa');
 
@@ -55,6 +56,9 @@ function autocompleteClickHandler(event) {
     removeDropdown();
 
     inputPesquisa.focus();
+
+    const eventInput = new Event('input');
+    inputPesquisa.dispatchEvent(eventInput);
 }
 
 inputPesquisa.addEventListener('input', function (event) {
@@ -68,9 +72,12 @@ inputPesquisa.addEventListener('input', function (event) {
     removeDropdown();
 
     if (ultimoIngrediente !== '') {
+        const etiquetas = getIngredientesEtiquetados();
+
         const sugestoesAutocomplete = nomesIngredientes.filter(nomeIngrediente =>
             nomeIngrediente.includes(ultimoIngrediente) &&
-            !ingredientesInput.includes(nomeIngrediente)
+            !ingredientesInput.includes(nomeIngrediente) &&
+            !etiquetas.includes(nomeIngrediente)
         );
 
         sugestoesAutocomplete.sort((a, b) => {
